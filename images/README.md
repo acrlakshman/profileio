@@ -1,0 +1,1 @@
+Container to hold images and image directories.
