@@ -1,34 +1,11 @@
-# [ProfileIO]
-
-A delightfully simple website and resume generator for students, researchers, and engineers.
-
-Example of the site and the resume deployed using profileio can be found here :point_right: [Demo]
-
-Documentation :point_right: [profileio-doc](https://acrlakshman.github.io/profileio)
-
+---
+id: quick_start
+title: Quick Start
+sidebar_label: Quick Start
+slug: /
 ---
 
-<div align="center">
-
-Try editing `_profile/profile_web.yml` in codesandbox
-
-</div>
-
-<div align="center">
-
-[![Edit profileio](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/profileio-0gqoo?fontsize=14&hidenavigation=1&theme=dark)
-
-</div>
-
----
-
-## Features
-
-* Generate website from YAML based profile
-* Generate r&eacute;sum&eacute; with different themes
-* Schema used in YAML documents extends the schema from [JSON Resume](https://jsonresume.org)
-* `gh-pages` branch is generated via github actions
-* Branch `deployment_platforms` pushed by github actions can be used as production branch to deploy with netlify
+If you want to directly jump into using [ProfileIO] without getting into usage details, this section is for you. For further details and comprehensive information about the schema employed, please go through subsequent sections.
 
 ## Prerequisites
 
@@ -99,6 +76,5 @@ Which branch to use?
 If you find any issue or need a feature, feel free to [raise an issue](https://github.com/acrlakshman/profileio/issues), or submit a [PR](https://github.com/acrlakshman/profileio/pulls).
 
 [ProfileIO]: https://github.com/acrlakshman/profileio
-[Demo]: https://profileio.lakshmananumolu.com
 [YAML]: https://yaml.org/
 [Markdown]: https://en.wikipedia.org/wiki/Markdown

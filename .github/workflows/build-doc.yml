@@ -1,0 +1,36 @@
+name: Build documentation
+on:
+  push:
+    branches: [main]
+
+jobs:
+
+  build-doc:
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node-version: [14.x]
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+    - uses: actions/checkout@v2.3.1
+
+    - name: Use node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v2.0.0
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: build doc
+      run: |
+        cd docs
+        npm install
+        npm run build
+
+    - name: Push to doc branch
+      uses: JamesIves/github-pages-deploy-action@3.5.8
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: doc
+        FOLDER: docs/build
