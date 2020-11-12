@@ -16,7 +16,7 @@ Try editing `_profile/profile_web.yml` in codesandbox
 
 <div align="center">
 
-[![Edit profileio](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/profileio-0gqoo?fontsize=14&hidenavigation=1&theme=dark)
+[![Edit profileio](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/profileio-0gqoo?fontsize=14&hidenavigation=1&theme=dark&file=/_profile/profile_web.yml)
 
 </div>
 
