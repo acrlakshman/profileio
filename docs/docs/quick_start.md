@@ -5,7 +5,7 @@ sidebar_label: Quick Start
 slug: /
 ---
 
-If you want to directly jump into using [ProfileIO] without getting into usage details, this section is for you. For further details and comprehensive information about the schema employed, please go through subsequent sections.
+If you want to directly jump into using [ProfileIO] without getting into the details, this section is for you. For further details and comprehensive information about the schema employed, please go through subsequent sections.
 
 ## Prerequisites
 

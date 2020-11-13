@@ -58,9 +58,7 @@ function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
   return (
-    <Layout
-      title={`${siteConfig.title}`}
-      description="profileio documentation">
+    <Layout title={`${siteConfig.title}`} description="profileio documentation">
       {/* <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
@@ -81,14 +79,38 @@ function Home() {
         <section className={styles.features}>
           <div className="container">
             <div className={styles.buttons}>
-              <Link
-                className={clsx(
-                  'button button--outline button--secondary button--lg',
-                  styles.getStarted,
-                )}
-                to={useBaseUrl('docs/')}>
-                Documentation
-              </Link>
+              <div className="row">
+                {/* <Link
+                  className={clsx(
+                    'button button--outline button--secondary button--lg',
+                    styles.getStarted
+                  )}
+                  to={useBaseUrl('docs/')}
+                >
+                  Documentation
+                </Link> */}
+                <div className={clsx('col col--12', styles.feature)}>
+                    <div className="text--center">
+                      <img
+                        alt="ProfileIO"
+                        src={useBaseUrl('img/profileio.png')}
+                        width="400"
+                        height="auto"
+                      ></img>
+                    </div>
+                    <div className="text--center">
+                      <Link
+                        className={clsx(
+                          'button button--outline button--secondary button--lg',
+                          styles.getStarted
+                        )}
+                        to={useBaseUrl('docs/')}
+                      >
+                        Documentation
+                    </Link>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
