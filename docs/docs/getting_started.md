@@ -30,7 +30,7 @@ profileio
 ├── scripts/
 ```
 
-Basic information:
+Basic information
 ---
 
 * :point_right: [How to start?](quick_start.md#how-to-start)

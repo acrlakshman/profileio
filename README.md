@@ -1,6 +1,6 @@
-# [ProfileIO]
+![readme](./docs/static/img/profileio.png)
 
-A delightfully simple website and resume generator for students, researchers, and engineers.
+A delightfully simple website and r&eacute;sum&eacute; generator for students, researchers, and engineers.
 
 Example of the site and the resume deployed using profileio can be found here :point_right: [Demo]
 
