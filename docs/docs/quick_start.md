@@ -51,10 +51,10 @@ How to start?
 How it works?
 ---
 
-* GitHub actions will build and push the following three branches to your repository
-  * `gh-pages`
-  * `gh-pages-mac`
-  * `deployment_platforms`
+* Once pushed to github, actions will build both web and pdf r&eacute;sum&eacute;
+* Generated r&eacute;sum&eacute; will be linked to the website and displayed if `showResumeLink` is set in `profile_web.yml`
+* Build files are pushed to `gh-pages`, `gh-pages-mac` branches
+* Source repo, combined with r&eacute;sum&eacute; copied to `_public/files/resume` will be pushed to `deployment_platforms`
 
 Which branch to use?
 ---
@@ -73,7 +73,7 @@ Which branch to use?
       2. Resume from Linux build will be pushed to this branch as soon as available
       3. Resume from Mac build will be pushed as soon as that step completes
 
-If you find any issue or need a feature, feel free to [raise an issue](https://github.com/acrlakshman/profileio/issues), or submit a [PR](https://github.com/acrlakshman/profileio/pulls).
+If you find any issue or need a feature, please [raise an issue](https://github.com/acrlakshman/profileio/issues), or submit a [PR](https://github.com/acrlakshman/profileio/pulls).
 
 [ProfileIO]: https://github.com/acrlakshman/profileio
 [YAML]: https://yaml.org/
