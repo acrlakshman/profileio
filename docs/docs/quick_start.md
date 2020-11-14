@@ -26,7 +26,7 @@ profileio
 ├── ...
 ```
 
-Data from `profile_web.yml` will be used to generate website and `profile_resume.yml` will be used to generate pdf resume.
+Data from `profile_web.yml` will be used to generate website and `profile_resume.yml` will be used to generate pdf r&eacute;sum&eacute;.
 
 Demo
 ---
