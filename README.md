@@ -96,7 +96,7 @@ Which branch to use?
       2. Resume from Linux build will be pushed to this branch as soon as available
       3. Resume from Mac build will be pushed as soon as that step completes
 
-If you find any issue or need a feature, feel free to [raise an issue](https://github.com/acrlakshman/profileio/issues), or submit a [PR](https://github.com/acrlakshman/profileio/pulls).
+If you find any issue or need a feature, please [raise an issue](https://github.com/acrlakshman/profileio/issues), or submit a [PR](https://github.com/acrlakshman/profileio/pulls).
 
 [ProfileIO]: https://github.com/acrlakshman/profileio
 [Demo]: https://profileio.lakshmananumolu.com
