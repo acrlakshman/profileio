@@ -10,7 +10,7 @@ Due to the structured nature of the various jobs and achievements by students or
 
 :::note
 
-Due to the wide use of [JSON Resume](https://jsonresume.org/) schema, [ProfileIO]'s adopted and extended it in YAML format.
+Due to the wide use of [JSON Resume](https://jsonresume.org/) schema, [ProfileIO] adopted it in YAML format and extended it.
 
 :::
 

@@ -6,7 +6,7 @@ config:
   analytics:
     ga:
       trackingId: ""
-      enable: true
+      enable: false
   meta:
     showResumeLink: true
 basics:
@@ -134,7 +134,7 @@ education:
       render: true
 projects:
   label: "Projects"
-  rank: 4
+  rank: 3
   maxItemsToRender: 3 # If this is not provided, it defaults to 5 (src/config.ts)
   list:
     - value:
@@ -292,7 +292,7 @@ awards:
 publications:
   # Format follows: http://web.mit.edu/rsi/www/pdfs/bibtex-format.pdf
   label: Publications
-  rank: 3
+  rank: 4
   maxItemsToRender: 3 # If this is not provided, it defaults to 5 (src/config.ts)
   list:
     - value:
@@ -382,7 +382,7 @@ gallery:
   list:
     - value:
         type: image
-        src: bmv_t.gif
+        src: profileio.png
         caption:
           title: ProfileIO
           description: "Delightfully simple website and resume generator for students, researchers, and engineers"

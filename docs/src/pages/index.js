@@ -90,23 +90,23 @@ function Home() {
                   Documentation
                 </Link> */}
                 <div className={clsx('col col--12', styles.feature)}>
-                    <div className="text--center">
-                      <img
-                        alt="ProfileIO"
-                        src={useBaseUrl('img/profileio.png')}
-                        width="400"
-                        height="auto"
-                      ></img>
-                    </div>
-                    <div className="text--center">
-                      <Link
-                        className={clsx(
-                          'button button--outline button--secondary button--lg',
-                          styles.getStarted
-                        )}
-                        to={useBaseUrl('docs/')}
-                      >
-                        Documentation
+                  <div className="text--center">
+                    <img
+                      alt="ProfileIO"
+                      src={useBaseUrl('img/logo512.png')}
+                      width="256"
+                      height="auto"
+                    ></img>
+                  </div>
+                  <div className="text--center">
+                    <Link
+                      className={clsx(
+                        'button button--outline button--secondary button--lg',
+                        styles.getStarted
+                      )}
+                      to={useBaseUrl('docs/')}
+                    >
+                      Documentation
                     </Link>
                   </div>
                 </div>
