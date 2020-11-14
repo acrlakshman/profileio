@@ -4,7 +4,7 @@ A delightfully simple website and r&eacute;sum&eacute; generator for students, r
 
 Example of the site and the resume deployed using profileio can be found here :point_right: [Demo]
 
-Documentation :point_right: [profileio-doc](https://acrlakshman.github.io/profileio)
+Details :point_right: [Documentation](https://acrlakshman.github.io/profileio)
 
 ---
 
@@ -74,10 +74,10 @@ How to start?
 How it works?
 ---
 
-* GitHub actions will build and push the following three branches to your repository
-  * `gh-pages`
-  * `gh-pages-mac`
-  * `deployment_platforms`
+* Once pushed to github, actions will build both web and pdf r&eacute;sum&eacute;
+* Generated r&eacute;sum&eacute; will be linked to the website and displayed if `showResumeLink` is set in `profile_web.yml`
+* Build files are pushed to `gh-pages`, `gh-pages-mac` branches
+* Source repo, combined with r&eacute;sum&eacute; copied to `_public/files/resume` will be pushed to `deployment_platforms`
 
 Which branch to use?
 ---

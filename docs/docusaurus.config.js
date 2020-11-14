@@ -8,6 +8,9 @@ module.exports = {
   organizationName: 'acrlakshman.github.io',
   projectName: 'profileio',
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+    },
     navbar: {
       title: 'ProfileIO',
       logo: {
