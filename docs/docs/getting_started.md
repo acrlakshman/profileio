@@ -28,6 +28,8 @@ profileio
 │   └── types
 │
 ├── scripts/
+│
+├── docs/                   <- ProfileIO documentation
 ```
 
 Basic information
