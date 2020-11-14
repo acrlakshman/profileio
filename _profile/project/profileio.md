@@ -1,6 +1,16 @@
-##### [ProfileIO](https://github.com/acrlakshman/profileio)
+## [ProfileIO](https://github.com/acrlakshman/profileio)
 
-Steps to run:
+* [Documentation](https://acrlakshman.github.com/profileio)
+* Highlights:
+  * Generate website from YAML based profile
+  * Generate r&eacute;sum&eacute; with different themes
+  * Schema used in YAML documents extends the schema from [JSON Resume](https://jsonresume.org)
+  * `gh-pages` branch is generated via github actions
+  * Branch `deployment_platforms` pushed by github actions can be used as production branch to deploy with netlify
+
+---
+
+## Run locally
 
 ```sh
 git clone https://github.com/acrlakshman/profileio
@@ -9,7 +19,9 @@ cd profileio
 yarn && yarn start
 ```
 
-##### [profileio-resume](https://github.com/acrlakshman/profileio-resume)
+---
+
+## [profileio-resume](https://github.com/acrlakshman/profileio-resume)
 
 ```go
 package main
