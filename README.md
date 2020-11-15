@@ -1,4 +1,6 @@
-![readme](./docs/static/img/profileio.png)
+<div align="center">
+  <img align="center" width="150" src="./docs/static/img/logo512.png">
+</div>
 
 A delightfully simple website and r&eacute;sum&eacute; generator for students, researchers, and engineers.
 
