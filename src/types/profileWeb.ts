@@ -67,7 +67,7 @@ export interface Basics extends OptionalArgs {
     value: string;
     render: boolean;
   };
-  location: {
+  location?: {
     value: {
       address?: string;
       postalCode?: string;
@@ -77,7 +77,7 @@ export interface Basics extends OptionalArgs {
     };
     render: boolean;
   };
-  profiles: SocialProfile[];
+  profiles?: SocialProfile[];
 }
 
 export interface BriefAndDetail {

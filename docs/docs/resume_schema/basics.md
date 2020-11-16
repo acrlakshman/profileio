@@ -30,10 +30,10 @@ basics:
   # (For an example of how this is rendered, please take a look at https://profileio.lakshmananumolu.com/)
   summary:
       ...
-  # required (TODO, make this optional)
+  # optional
   location:
       ...
-  # required (TODO, make this optional)
+  # optional
   profiles:
       ...
 ```
@@ -150,7 +150,7 @@ Currently available values for `network` are:
 
 ```yaml
 basics:
-  # required (TODO, make this optional)
+  # optional
   profiles:
     - value:
         network: googlescholar

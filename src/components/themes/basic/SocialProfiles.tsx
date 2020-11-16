@@ -15,7 +15,7 @@ import FacebookLogo from '../../../icons/facebook.svg';
 import TwitchLogo from '../../../icons/twitch.svg';
 
 interface ComponentProps {
-  profiles: SocialProfile[];
+  profiles?: SocialProfile[];
 }
 
 const getSocialProfileUrl = (network: string, username: string): string => {
@@ -211,7 +211,7 @@ const SocialProfiles: FunctionComponent<ComponentProps> = ({
   return (
     <>
       <ButtonGroup size="lg" className="mb-2">
-        {profiles.map((profile) => renderProfileItem(profile))}
+        {profiles && profiles.map((profile) => renderProfileItem(profile))}
       </ButtonGroup>
     </>
   );
