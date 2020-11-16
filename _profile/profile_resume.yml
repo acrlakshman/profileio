@@ -1,7 +1,7 @@
 config:
   homepage: "https://profileio.lakshmananumolu.com"
   theme:
-    value: basic
+    value: panther
     render: true
     meta:
       showPageNumbers: true
@@ -115,7 +115,6 @@ work:
         highlights:
           - detail: Implemented phase-change capabilities into in-house developed solver to perform two-phase boilingsimulations
           - detail: Developed fourth order accurate semi-Lagrangian method tosolve Hamilton-Jacobi equations that improved the quality of two-phase fluid simulations in the context of level set methods
-          - detail: Performed a detailed numerical study on interFoam, a two-phase flow solver shipped with OpenFOAM C++ libraries
           - detail: Developed post-processing utilities in C++ to achieve photo-realistic rendering for density fields from OpenFOAM results using Mitsuba
       render: true
 education:
