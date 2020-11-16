@@ -4,15 +4,21 @@
 
 A delightfully simple website and r&eacute;sum&eacute; generator for students, researchers, and engineers.
 
-Example of the site and the resume deployed using profileio can be found here :point_right: [Demo]
+---
 
-Details :point_right: [Documentation](https://acrlakshman.github.io/profileio)
+<div align="center">
+
+| **Demo**  | **Documentation** |
+| :-------: |:-------------:|
+| [Example](https://profileio.lakshmananumolu.com) | [Documentation] |
+
+</div>
 
 ---
 
 <div align="center">
 
-Try editing `_profile/profile_web.yml` in codesandbox
+Try editing `_profile/profile_web.yml` on CodeSandbox
 
 </div>
 
@@ -30,7 +36,7 @@ Try editing `_profile/profile_web.yml` in codesandbox
 * Generate r&eacute;sum&eacute; with different themes
 * Schema used in YAML documents extends the schema from [JSON Resume](https://jsonresume.org)
 * `gh-pages` branch is generated via github actions
-* Branch `deployment_platforms` pushed by github actions can be used as production branch to deploy with netlify
+* Branch `deployment_platforms` pushed by github actions can be used as production branch to deploy with [netlify]
 
 ## Prerequisites
 
@@ -66,12 +72,14 @@ How to start?
 
 1. Fork the repository :point_right: [ProfileIO]
 2. _(GitHub pages)_: If you want to deploy website to github pages, rename the repository to `<github username>.github.io`
-3. Update contents of `_profile/` either using github IDE or by cloning your repository and pushing the changes
-4. Wait until github actions complete
-5. _(GitHub pages)_: Add `gh-pages` or `gh-pages-mac` as source for GitHub pages
-  > Your repository -> settings -> GitHub pages -> Source
-6. If you want to deploy to `netlify`, use `deployment_platforms` as the production branch in netlify UI and `build` for the directory to publish
-7. If you want to host website on your own server, you may use the directory `build/` after building the project
+3. (One time task): To allow profileio workflows do their job, please enable workflows via `Actions`. After enabling, if you want them to run before make any changes to `main` repo of your branch, click `Run workflow` for `Build and deploy`
+   > Actions -> Build and deploy -> Run workflow -> Branch: main
+4. Update contents of `_profile/` either using github IDE or by cloning your repository and pushing the changes
+5. Wait until github actions complete
+6. _(GitHub pages)_: Add `gh-pages` or `gh-pages-mac` as source for GitHub pages
+   > Your repository -> settings -> GitHub pages -> Source
+7. If you want to deploy to [netlify], use `deployment_platforms` as the production branch in netlify UI and `build` for the directory to publish
+8. If you want to host website on your own server, you may use the directory `build/` after building the project
 
 How it works?
 ---
@@ -98,9 +106,10 @@ Which branch to use?
       2. Resume from Linux build will be pushed to this branch as soon as available
       3. Resume from Mac build will be pushed as soon as that step completes
 
-If you find any issue or need a feature, please [raise an issue](https://github.com/acrlakshman/profileio/issues), or submit a [PR](https://github.com/acrlakshman/profileio/pulls).
+If you find any bugs or need a feature, please [raise an issue](https://github.com/acrlakshman/profileio/issues), or submit a [PR](https://github.com/acrlakshman/profileio/pulls).
 
 [ProfileIO]: https://github.com/acrlakshman/profileio
-[Demo]: https://profileio.lakshmananumolu.com
+[Documentation]: https://acrlakshman.github.io/profileio
 [YAML]: https://yaml.org/
 [Markdown]: https://en.wikipedia.org/wiki/Markdown
+[netlify]: https://netlify.app

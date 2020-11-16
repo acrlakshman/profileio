@@ -1,7 +1,7 @@
 config:
   homepage: "https://profileio.lakshmananumolu.com"
   theme:
-    value: panther
+    value: basic
     render: true
     meta:
       showPageNumbers: true
@@ -82,12 +82,11 @@ work:
         endDate: Present # string
         active: true
         highlights:
-          - brief: "Architected so and so."
+          - brief: ""
             detail: "Present few details and its impact"
-          - detail: Sample text written as part of the demo for profileio. Sample text written as part of the demo for profileio
+          - detail: Sample text written as part of the demo for profileio
           - brief: ""
             detail: This is the sample text written for the demo of profileio
-          - detail: Sample text written as part of the demo for profileio
           - detail: Sample text written as part of the demo for profileio
       render: true
     - value:
@@ -100,10 +99,9 @@ work:
         endDate: "2019" # string
         active: false # `true` if currently working, else `false`
         highlights:
-          - detail: Sample text written as part of the demo for profileio. Sample text written as part of the demo for profileio
+          - detail: Sample text written as part of the demo for profileio
           - brief: ""
             detail: This is the sample text written for the demo of profileio
-          - detail: Sample text written as part of the demo for profileio
           - detail: Sample text written as part of the demo for profileio
       render: true
     - value:
@@ -116,11 +114,10 @@ work:
         endDate: '2017'
         highlights:
           - detail: Implemented phase-change capabilities into in-house developed solver to perform two-phase boilingsimulations
-          - detail: Developed fourth order accurate semi-Lagrangian method tosolve Hamilton-Jacobi equations that canimprove the quality of two-phase fluid simulations in thecontext of level set methods
-          - detail: Developed and maintained a fully parallelized two-phase flow solver in C++ [12K LOC] with theaid ofgradient augmented level set and reinitialization algorithms and Ghost Fluid Method
+          - detail: Developed fourth order accurate semi-Lagrangian method tosolve Hamilton-Jacobi equations that improved the quality of two-phase fluid simulations in the context of level set methods
           - detail: Performed a detailed numerical study on interFoam, a two-phase flow solver shipped with OpenFOAM C++ libraries
-          - detail: Developed post-processing utilities in C++ to achieve photo-realistic rendering for density fieldsfromOpenFOAM results using Mitsuba
-      render: false
+          - detail: Developed post-processing utilities in C++ to achieve photo-realistic rendering for density fields from OpenFOAM results using Mitsuba
+      render: true
 education:
   label: Education
   rank: 7
@@ -131,8 +128,8 @@ education:
         major: Computer Science
         minor: ''
         degree: Ph.D.
-        grade: 3.9
-        gradeTotal: 4.0
+        # grade: 3.9
+        # gradeTotal: 4.0
         courses:
           - CS521 - Computer Graphics
           - CS801 - HPC
@@ -249,7 +246,7 @@ publications:
     - value:
         type: book
         author: "Author I, Author II, and Author III"
-        title: "Sample title of a book made-up to give demo for profileio"
+        title: "Sample title I of a book made-up to give demo for profileio"
         series: "Encyclopedia of Two-Phase Heat Transfer and Flow"
         volume: 3
         publisher: World Scientific
@@ -262,7 +259,7 @@ publications:
     - value:
         type: article
         author: "Author I, Author II, and Author III"
-        title: "Sample title of an article made-up to give demo for profileio"
+        title: "Sample title II of an article made-up to give demo for profileio"
         journal: Journal of Computational Physics
         volume: 334
         year: 2017
@@ -275,7 +272,7 @@ publications:
     - value:
         type: article
         author: "Author I, Author II, and Author III"
-        title: Sample title of an article made-up to give demo for profileio
+        title: Sample title III of an article made-up to give demo for profileio
         journal: International Journal of Heat and Fluid Flow
         volume: 44
         year: 2013
@@ -288,7 +285,7 @@ publications:
     - value:
         type: article
         author: "Author I and Author II"
-        title: Sample title of an article made-up to give demo for profileio
+        title: Sample title IV of an article made-up to give demo for profileio
         journal: International Journal of Numerical Methods in Fluids
         volume: 73
         year: 2013
@@ -301,7 +298,7 @@ publications:
     - value:
         type: article
         author: "Author I, Author II, and Author III"
-        title: Sample title of an article made-up to give demo for profileio
+        title: Sample title V of an article made-up to give demo for profileio
         journal: "Computational Science & Discovery"
         volume: 5
         year: 2012
@@ -407,7 +404,7 @@ references:
         phoneNumber: '1111111111' # string
         email: user@domain.edu
         url: "https://github.com/acrlakshman/profileio"
-      render: true
+      render: false
 
 # Custom fields
 custom:
@@ -419,10 +416,11 @@ custom:
       - value:
           # text in brief will be displayed in bold.
           brief: "Physics based simulations:"
-          detail: "Level set method I for artistic simulations (9999999998). Level set method II for artistic simulations (9999999999)."
+          detail: "Level set method I for artistic simulations (9999998). Level set method II for artistic simulations (9999999)."
         render: true
       - value:
-          detail: "Experimental Physics: Inventing so and so method for so and so (9999999997)"
+          brief: "Experimental physics:"
+          detail: "Novel PIV method to quatify velocity of fluid flow through swirl atomizer (9999997)"
         render: true
     meta:
       listStyleType: "none" # no bullets
