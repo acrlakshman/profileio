@@ -24,6 +24,7 @@ export interface Config extends OptionalArgs {
   };
   meta?: {
     showResumeLink?: boolean;
+    resume?: string;
     hideFooterCredit?: boolean;
   };
 }

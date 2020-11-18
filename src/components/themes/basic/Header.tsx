@@ -148,9 +148,17 @@ class Header extends Component<ComponentProps, ComponentState> {
                       : ''}
                     {this.props.config.meta &&
                     this.props.config.meta.showResumeLink ? (
-                      <Nav.Link href="/files/resume/resume.pdf">
-                        <p className="nav-link active">R&eacute;sum&eacute;</p>
-                      </Nav.Link>
+                      (() => {
+                        let file = this.props.config.meta.resume ? `/files/${this.props.config.meta.resume}` : "/files/resume/resume.pdf";
+                        return (
+                          <Nav.Link href={file}>
+                            <p className="nav-link active">R&eacute;sum&eacute;</p>
+                          </Nav.Link>
+                        )
+                      })()
+                      // <Nav.Link href="/files/resume/resume.pdf">
+                      //   <p className="nav-link active">R&eacute;sum&eacute;</p>
+                      // </Nav.Link>
                     ) : (
                       ''
                     )}

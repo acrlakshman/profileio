@@ -25,6 +25,7 @@ jobs:
       uses: actions/setup-node@v2.1.2
       with:
         node-version: ${{ matrix.node-version }}
+        check-latest: true
 
     # Currently build is only made for gh-pages, this is not necessary.
     # - name: npm install and build
@@ -79,6 +80,7 @@ jobs:
       uses: actions/setup-node@v2.1.2
       with:
         node-version: ${{ matrix.node-version }}
+        check-latest: true
 
     # No need to build here, all that is needed is profile_resume.json.
     - name: npm install and build
@@ -228,6 +230,7 @@ jobs:
       uses: actions/setup-node@v2.1.2
       with:
         node-version: ${{ matrix.node-version }}
+        check-latest: true
 
     - name: npm install and build
       run: |
