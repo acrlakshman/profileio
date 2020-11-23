@@ -8,9 +8,9 @@ A delightfully simple website and r&eacute;sum&eacute; generator for students, r
 
 <div align="center">
 
-| **Demo**  | **Documentation** |
-| :-------: |:-------------:|
-| [Example](https://profileio.lakshmananumolu.com) | [Documentation] |
+| **Demo**  | **Documentation** | **Videos** |
+| :-------: |:-------------:|:---:|
+| [Example](https://profileio.lakshmananumolu.com) | [Documentation] | [on YouTube](https://www.youtube.com/watch?v=NgvQkzN_NhA&list=PLO8GzHGEyzk7KTVl1Pda0wDMGcEfTg9Pi) |
 
 </div>
 
