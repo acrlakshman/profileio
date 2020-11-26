@@ -1,3 +1,5 @@
+# For all available keys and their usages please refer to https://acrlakshman.github.io/profileio/docs/
+# Comments for the configurations below will be updated soon.
 config:
   homepage: "https://profileio.lakshmananumolu.com"
   theme:
