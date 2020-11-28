@@ -1,7 +1,7 @@
 # For all available keys and their usages please refer to https://acrlakshman.github.io/profileio/docs/
 # Comments for the configurations below will be updated soon.
 config:
-  homepage: "https://profileio.lakshmananumolu.com"
+  homepage: "https://rohitmishranitrr.github.io"
   theme:
     value: basic
     render: true
@@ -14,22 +14,22 @@ config:
     resume: resume.pdf # path (relative to _profile/files/) for user submitted resume
 basics:
   name:
-    value: Lakshmi Vera
+    value: Rohit Mishra
     render: true
   label:
-    value: Senior Software Engineer
+    value: PhD Candidate
     render: true
   image:
-    value: pic.png
+    value: pic.png # Upload later
     render: true
   email:
-    value: anumolu@uwalumni.com
+    value: rmishra@tamu.edu
     render: true
   phone:
     value: ''
     render: false
   url:
-    value: 'https://profileio.lakshmananumolu.com'
+    value: 'https://rohitmishranitrr.github.io'
     render: false
   summary:
     label: About me
@@ -37,7 +37,7 @@ basics:
     render: true
   location:
     value:
-      address: Street
+      address: Street #Later
       postalCode: WI XXXXX
       city: Madison
       countryName: USA
@@ -46,21 +46,21 @@ basics:
   profiles:
     - value:
         network: googlescholar
-        url: https://scholar.google.com/citations?user=VcGv5cEAAAAJ&hl=en
+        url: https://scholar.google.com/citations?user=Zfx-VCcAAAAJ&hl=en
       render: true
     - value: # if username is provided but not url, then we generate the url.
         network: github
-        username: acrlakshman
+        username: rohitmishranitrr
       render: true
     - value:
         network: linkedin
-        url: https://www.linkedin.com/in/lakshmananumolu/
-      render: true
+        url: https://www.linkedin.com/in/lakshmananumolu/ # Later
+      render: false
     - value:
         network: twitter
         username: acrlakshman
         url: https://twitter.com/acrlakshman
-      render: true
+      render: false
     - value:
         network: vimeo
         url: https://vimeo.com/user24179204
@@ -70,70 +70,41 @@ work:
   rank: 2
   list:
     - value:
-        name: Walt Disney Animation Studios
-        location: Burbank, CA
+        name: Texas A&M University
+        location: College, TX
         brief: ""
-        position: Senior Software Engineer
-        url: "https://www.disneyanimation.com/"
+        position: Research Assistant
+        url: "tamu.edu"
         startDate: "2019" # string
         endDate: Present # string
         active: true
         highlights:
-          - detail: Sample text written as part of the demo for profileio. Sample text written as part of the demo for profileio
-          - brief: ""
-            detail: This is the sample text written for the demo of profileio
+          - detail: Sample text written as part of the demo for profileio. Sample text written as part of the demo for profileio #Later
+          - brief: "" #Bold
+            detail: This is the sample text written for the demo of profileio #Later
       render: true
-    - value:
-        name: Dreamworks Animation
-        location: Glendale, CA
-        brief: ""
-        position: Software Engineer
-        url: "https://www.dreamworks.com/"
-        startDate: "2017" # string
-        endDate: "2019" # string
-        active: false # `true` if currently working, else `false`
-        highlights:
-          - detail: Sample text written as part of the demo for profileio. Sample text written as part of the demo for profileio
-          - brief: ""
-            detail: This is the sample text written for the demo of profileio
-      render: true
-    - value:
-        name: University of Wisconsin-Madison
-        location: Madison, WI
-        brief: University
-        position: Research Assistant
-        url: https://wisc.edu
-        startDate: '2013'
-        endDate: '2017'
-        highlights:
-          - detail: Implemented phase-change capabilities into in-house developed solver to perform two-phase boilingsimulations
-          - detail: Developed fourth order accurate semi-Lagrangian method tosolve Hamilton-Jacobi equations that canimprove the quality of two-phase fluid simulations in thecontext of level set methods
-          - detail: Developed and maintained a fully parallelized two-phase flow solver in C++ [12K LOC] with theaid ofgradient augmented level set and reinitialization algorithms and Ghost Fluid Method
-          - detail: Performed a detailed numerical study on interFoam, a two-phase flow solver shipped with OpenFOAM C++ libraries
-          - detail: Developed post-processing utilities in C++ to achieve photo-realistic rendering for density fieldsfromOpenFOAM results using Mitsuba
-      render: false
+      
 education:
   label: Education
   rank: 1
   list:
     - value:
-        institution: University of Wisconsin-Madison
-        url: https://wisc.edu
-        major: Computer Science
+        institution: Texas A&M University
+        url: https://tamu.edu
+        major: Mechanical Engineering
         minor: ''
-        degree: Ph.D.
-        grade: 3.9
+        degree: PhD
+        grade: 4.0
         gradeTotal: 4.0
         courses:
-          - CS521 - Computer Graphics
-          - CS801 - HPC
+          - AERO-641 #Later
       render: true
     - value:
         institution: University of Wisconsin-Madison
         url: https://wisc.edu
-        major: Computer Science and Mathematics
+        major: Mechanical Engineering
         minor: ''
-        degree: B.S.
+        degree: M.S.
       render: true
 projects:
   label: "Projects"
@@ -141,11 +112,11 @@ projects:
   maxItemsToRender: 3 # If this is not provided, it defaults to 5 (src/config.ts)
   list:
     - value:
-        name: ProfileIO
-        description: "Delightfully simple website and resume generator for students, researchers, and engineers"
-        team: "_with [Lakshman Anumolu](//lakshmananumolu.com)_"
+        name: Degassing in diesel injector nozzles
+        description: "Developing OpenFOAM code for 3 component"
+        team: "with Dorrin Jarrahbashi" # [Lakshman Anumolu](//lakshmananumolu.com)_" 
         note: ""
-        thumbnail: profileio.png
+        thumbnail: profileio.png #Later
         highlights:
           - brief: ""
             detail: Website and resume generator via YAML
@@ -162,126 +133,11 @@ projects:
           - Architect
           - Developer
         type: application
-        webPage:
-          slug: profileio
-          detail: project/profileio.md # if the content is empty, "url" will be linked in the homepage for the project
+       # webPage:
+       #   slug: profileio
+       #   detail: project/profileio.md # if the content is empty, "url" will be linked in the homepage for the project
       render: true
-    - value:
-        name: Framework to Photorealistically Render Computational Fluid Dynamics Results
-        description: "Scene templates to kick-start scalable rendering of CFD results photorealistically."
-        team: "_with Lakshman Anumolu_"
-        note: ""
-        thumbnail: scene_templates.png
-        highlights:
-          - brief: ""
-            detail: Scene templates to process CFD results photorealistically
-        keywords:
-          - CFD
-          - photorealistic
-          - mitsuba
-        startDate: '2020'
-        endDate: Present
-        # If webPage is not provided, then url will be linked in the homepage for this project
-        url: https://github.com/acrlakshman/scene_templates
-        roles:
-          - Architect
-          - Developer
-        type: application
-        webPage:
-          slug: photorealistic-computational-fluid-dynamics
-          detail: project/photorealistic-cfd.md
-      render: true
-    - value:
-        name: Project VII
-        description: Sample text written as part of the demo for ProfileIO
-        team: "_with [Pradeep Garigipati](//pradeepgarigipati.com)_"
-        note: ""
-        thumbnail: meshio_t.png
-        highlights:
-          - brief: ""
-            detail: Sample text written as part of the demo for ProfileIO
-        keywords:
-          - STL
-          - OBJ
-          - TLGF
-          - surface mesh
-        startDate: '2015'
-        endDate: Present
-        # If webPage is not provided, then url will be linked in the homepage for this project
-        url: https://github.com/acrlakshman/profileio
-      render: true
-    - value:
-        name: Project VI
-        description: Sample text written as part of the demo for ProfileIO
-        team: ""
-        note: ""
-        thumbnail: bmv_t.gif
-        highlights:
-          - detail: Sample text written as part of the demo for ProfileIO
-        keywords:
-          - STL
-          - OBJ
-          - TLGF
-          - surface mesh
-        startDate: '2015'
-        endDate: Present
-        # If webPage is not provided, then url will be linked in the homepage for this project
-        url: https://github.com/acrlakshman/profileio
-      render: true
-    - value:
-        name: Project V
-        description: Sample text written as part of the demo for ProfileIO
-        team: ""
-        note: ""
-        thumbnail: crystal_growth_t.png
-        highlights:
-          - detail: Sample text written as part of the demo for ProfileIO
-        keywords:
-          - STL
-          - OBJ
-          - TLGF
-          - surface mesh
-        startDate: '2015'
-        endDate: Present
-        # If webPage is not provided, then url will be linked in the homepage for this project
-        url: https://github.com/acrlakshman/profileio
-      render: true
-    - value:
-        name: Project IV
-        description: Sample text written as part of the demo for ProfileIO
-        team: ""
-        note: ""
-        thumbnail: taup_0_frame20.png
-        highlights:
-          - detail: Sample text written as part of the demo for ProfileIO
-        keywords:
-          - STL
-          - OBJ
-          - TLGF
-          - surface mesh
-        startDate: '2015'
-        endDate: Present
-        # If webPage is not provided, then url will be linked in the homepage for this project
-        url: https://github.com/acrlakshman/profileio
-      render: true
-    - value:
-        name: Project III
-        description: Sample text written as part of the demo for ProfileIO
-        team: ""
-        note: ""
-        thumbnail: screensaver_t.png
-        highlights:
-          - detail: Sample text written as part of the demo for ProfileIO
-        keywords:
-          - STL
-          - OBJ
-          - TLGF
-          - surface mesh
-        startDate: '2015'
-        endDate: Present
-        # If webPage is not provided, then url will be linked in the homepage for this project
-        url: https://github.com/acrlakshman/profileio
-      render: true
+    
 awards:
   label: Awards & Achievements
   rank: 11
@@ -296,11 +152,11 @@ publications:
   # Format follows: http://web.mit.edu/rsi/www/pdfs/bibtex-format.pdf
   label: Publications
   rank: 4
-  maxItemsToRender: 3 # If this is not provided, it defaults to 5 (src/config.ts)
+  maxItemsToRender: 1 # If this is not provided, it defaults to 5 (src/config.ts)
   list:
     - value:
-        type: article
-        author: "**Author I**, Author II"
+        type: article #Book, in conference, in proceedings, thesis
+        author: "**Rohit Mishra**, Author II"
         title: "Made-up title of an article for ProfileIO' demo"
         journal: Journal of Computational Physics
         volume: 353
@@ -314,71 +170,7 @@ publications:
         #   slug: levelset-phasechange
         #   detail: publications/levelset-phasechange.md
       render: true
-    - value:
-        type: book
-        author: "Author I, **Author II**, and Author III"
-        title: "Sample title of a book made-up to give demo for profileio"
-        series: "Encyclopedia of Two-Phase Heat Transfer and Flow"
-        volume: 3
-        publisher: World Scientific
-        address: ''
-        year: 2018
-        thumbnail: dns_phasechange.png
-        # If webPage is not provided, then url will be linked in the homepage for this project
-        url: https://www.worldscientific.com/doi/abs/10.1142/9789813229440_0008
-      render: true
-    - value:
-        type: article
-        author: "Author I, **Author II**, and Author III"
-        title: "Sample title of an article made-up to give demo for profileio"
-        journal: Journal of Computational Physics
-        volume: 334
-        year: 2017
-        number: 0
-        pages: 81-101
-        thumbnail: levelset_deformation.png
-        # If webPage is not provided, then url will be linked in the homepage for this project
-        url: https://www.sciencedirect.com/science/article/pii/S0021999116307045
-      render: true
-    - value:
-        type: article
-        author: "Author I, **Author II**, and Author III"
-        title: Sample title of an article made-up to give demo for profileio
-        journal: International Journal of Heat and Fluid Flow
-        volume: 44
-        year: 2013
-        number: 0
-        pages: 610-623
-        thumbnail: jet_paper.jpg
-        # If webPage is not provided, then url will be linked in the homepage for this project
-        url: https://www.sciencedirect.com/science/article/pii/S0142727X13001707
-      render: true
-    - value:
-        type: article
-        author: "**Author I** and Author II"
-        title: Sample title of an article made-up to give demo for profileio
-        journal: International Journal of Numerical Methods in Fluids
-        volume: 73
-        year: 2013
-        number: 12
-        pages: 1011-1041
-        thumbnail: gals_reinit.jpg
-        # If webPage is not provided, then url will be linked in the homepage for this project
-        url: http://onlinelibrary.wiley.com/doi/10.1002/fld.3834/abstract
-      render: true
-    - value:
-        type: article
-        author: "Author I, **Author II**, and Author III"
-        title: Sample title of an article made-up to give demo for profileio
-        journal: "Computational Science & Discovery"
-        volume: 5
-        year: 2012
-        number: 0
-        pages: "014016: 1-36"
-        thumbnail: interfoam_thumbnail.png
-        # If webPage is not provided, then url will be linked in the homepage for this project
-        url: http://iopscience.iop.org/1749-4699/5/1/014016
-      render: true
+    
 gallery:
   label: Gallery
   rank: 5
@@ -389,36 +181,36 @@ gallery:
         caption:
           title: ProfileIO
           description: "Delightfully simple website and resume generator for students, researchers, and engineers"
-      render: true
+      render: false
     - value:
         type: image
         src: scene_templates.png
         caption:
           title: ""
           description: ""
-      render: true
+      render: false
     - value:
         type: image
         src: bmv_t.gif
         caption:
           title: Basic Model Viewer
           description: "A Qt5 based visualization utility for basic geometric objects"
-      render: true
+      render: false
     - value:
         type: video
         platform: youtube
         videoId: 35UEkzww5ds
-      render: true
+      render: false
     - value:
         type: video
         platform: youtube
         videoId: SRvZxvmoa_g
-      render: true
+      render: false
     - value:
         type: video
         platform: youtube
         videoId: CsZua1qI4Zc
-      render: true
+      render: false
 skills:
   label: Skills
   rank: 6
@@ -477,17 +269,17 @@ custom:
     webPage:
       slug: blog
       detail: custom/blog.md
-    render: true
+    render: false
 
   # Since "value" is not given, this is not rendered in the homepage,
   # but rendered in the route "/blog/profileio"
   - label: ProfileIO # rendered as another page
     webPage:
-      slug: blog/profileio
+      slug: blog/profileio #Route
       detail: custom/sample-code-snippets-2.md
-    render: true
+    render: false
 
   # rendered in the homepage
   - label: Few Random Points About ProfileIO
     value: custom/sample-code-snippets-1.md
-    render: true
+    render: false
