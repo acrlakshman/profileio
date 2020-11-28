@@ -107,7 +107,7 @@ Data from `profile_web.yml` will be used to generate website and `profile_resume
 If you find any bugs or need a feature, please [raise an issue](https://github.com/acrlakshman/profileio/issues), or submit a [PR](https://github.com/acrlakshman/profileio/pulls).
 
 [profileio]: https://github.com/acrlakshman/profileio
-[documentation]: https://acrlakshman.github.io/profileio
+[documentation]: https://acrlakshman.github.io/profileio/docs/
 [yaml]: https://yaml.org/
 [markdown]: https://en.wikipedia.org/wiki/Markdown
 [netlify]: https://netlify.app
