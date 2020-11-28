@@ -76,7 +76,7 @@ work:
   rank: 2
   list:
     - value:
-        name: Texas A&M University
+        name: Texas A\&M University
         location: College, TX
         brief: ""
         position: Research Assistant
@@ -95,7 +95,7 @@ education:
   rank: 1
   list:
     - value:
-        institution: Texas A&M University
+        institution: Texas A\&M University
         url: https://tamu.edu
         major: Mechanical Engineering
         minor: ''
