@@ -3,7 +3,7 @@
 config:
   homepage: 'https://profileio.lakshmananumolu.com'
   theme:
-    value: basic
+    value: panther
     render: true
     meta:
       # below keys are used by resume parser but not by web parser
