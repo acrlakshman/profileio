@@ -5,12 +5,20 @@ config:
   theme:
     value: basic
     render: true
+    meta:
+      # below keys are used by resume parser but not by web parser
+      showPageNumbers: true
+      hideSectionLines: false
+      pantherHeaderNameFontSize: 45
+      pantherHeaderColumnOneWidth: 0.6
+      pantherHeaderColumnTwoWidth: 0.4
   analytics:
     ga:
       trackingId: ""
       enable: false
   meta:
     showResumeLink: true
+    # below keys are used by web parser but not by resume parser
     resume: resume.pdf # path (relative to _profile/files/) for user submitted resume
 basics:
   name:
@@ -98,7 +106,7 @@ work:
             detail: This is the sample text written for the demo of profileio
       render: true
     - value:
-        name: University of Wisconsin-Madison
+        name: Texas A&M
         location: Madison, WI
         brief: University
         position: Research Assistant
@@ -106,9 +114,9 @@ work:
         startDate: '2013'
         endDate: '2017'
         highlights:
-          - detail: Implemented phase-change capabilities into in-house developed solver to perform two-phase boilingsimulations
+          - detail: Implemented phase-change capabilities into in-house developed solver to perform two-phase boiling simulations
           - detail: Developed fourth order accurate semi-Lagrangian method tosolve Hamilton-Jacobi equations that canimprove the quality of two-phase fluid simulations in thecontext of level set methods
-          - detail: Developed and maintained a fully parallelized two-phase flow solver in C++ [12K LOC] with theaid ofgradient augmented level set and reinitialization algorithms and Ghost Fluid Method
+          - detail: Developed and maintained a fully parallelized two-phase flow solver in C++ with the aid ofgradient augmented level set and reinitialization algorithms and Ghost Fluid Method
           - detail: Performed a detailed numerical study on interFoam, a two-phase flow solver shipped with OpenFOAM C++ libraries
           - detail: Developed post-processing utilities in C++ to achieve photo-realistic rendering for density fieldsfromOpenFOAM results using Mitsuba
       render: false
@@ -129,7 +137,7 @@ education:
           - CS801 - HPC
       render: true
     - value:
-        institution: University of Wisconsin-Madison
+        institution: Texas A&M
         url: https://wisc.edu
         major: Computer Science and Mathematics
         minor: ''
