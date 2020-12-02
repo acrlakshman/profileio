@@ -1,45 +1,65 @@
 
 	\documentclass{res}
 	\usepackage{fancyhdr}
+	\usepackage{fontspec}
+	\usepackage{color}
 	\usepackage{multicol}
 	\usepackage{setspace}
-	\usepackage[hidelinks]{hyperref}
+	\usepackage{xcolor}
+	\usepackage{hyperref}
 	\usepackage{enumitem}
 	\setlength{\textwidth}{6.5in}
 	
 	\newcommand{\HRule}{\rule{\linewidth}{0.25pt}}
-	\newsectionwidth{0.0in}
-	\sectionskip=0.15in
+	\newsectionwidth{0.25in}
+
+	% format URLs
+	\colorlet{ucolor}{yellow!14!black!14!red!72!}
+	\urlstyle{same}
+	\hypersetup{
+		colorlinks=true,
+		linkcolor=ucolor,
+		urlcolor=ucolor
+	}
 
 	\pagestyle{fancy}
 	\pagenumbering{arabic}
-	
-	\begin{document}
+
+	\newcommand{\spacedsc}{\scshape\addfontfeatures{LetterSpace=15}}
+	\renewcommand{\sectionfont}{\normalfont\Large\spacedsc\color{gray}\raggedright}
 	\renewcommand{\headrulewidth}{0.0pt}
 	
-	% Center the name over the entire width of resume:
-	\moveleft.5\hoffset\centerline{\large L\small {AKSHMI} \large V\small {ERA} }
-	\moveleft.5\hoffset\centerline{\url{ https://profileio.lakshmananumolu.com }}
-	\moveleft.5\hoffset\centerline{ \href{mailto:anumolu@uwalumni.com}{anumolu@uwalumni.com} }
-	
+	\begin{document}
+
+	\hspace*{-0.05\textwidth}
+	\begin{minipage}[t]{0.6\textwidth}
+	\begin{flushleft}
+	\vspace*{\fill}
+	{\fontsize{45}{45}\selectfont Lakshmi\textbf{Vera}}
+	\end{flushleft}
+	\end{minipage}
+	\begin{minipage}[t]{0.44\textwidth}
+	\begin{flushright}
+	\href{mailto:anumolu@uwalumni.com}{anumolu@uwalumni.com} \\ \url{https://profileio.lakshmananumolu.com} \\ 
+	\end{flushright}
+	\end{minipage}
+
 	\begin{resume}
 	
+	%%%%%%%%%%%%%%%%%%%%%%%%%% Introduction %%%%%%%%%%%%%%%%%%%%%%%%%%
 	
-	% Summary
-	\section{\sc \large A\small {BOUT} \large M\small {E} } \smallskip
-	\moveleft\hoffset\vbox{\hrule width\resumewidth height 0.25pt} \vskip -0.15in
+	\section{\MakeUppercase{About me}} \vskip 0.15in
 	Sample text written as part of the demo for profileio. Sample text written as part of the demo for profileio. Sample text written as part of the demo for profileio.
 	
 	
 	
-	%%%%%%%%%%%%%%%%%%%%%%%%%%% Experience %%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\section{\sc \large E\small {XPERIENCE} } \smallskip
-	\moveleft\hoffset\vbox{\hrule width\resumewidth height 0.25pt} \vskip -0.15in
+	%%%%%%%%%%%%%%%%%%%%%%%%%%% Work/Experience %%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\section{\MakeUppercase{Experience}} \vskip 0.15in
 	
-	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Experience 0 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
-	{\bf Senior Software Engineer} \hfill {\it 2019 - Present} \\
-	{\it Walt Disney Animation Studios, Burbank, CA}
-	\begin{itemize}[leftmargin=*]
+	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Item 0 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
+	\hspace*{-0.25in}{\bf Senior Software Engineer} \hfill 2019-Present \\
+	\hspace*{-0.25in}{\it Walt Disney Animation Studios, Burbank, CA}
+	\begin{itemize}[leftmargin=\parindent]
 	\setlength{\itemsep}{0mm} \smallskip
 	
 		\item Present few details and its impact
@@ -48,10 +68,10 @@
 		\item Sample text written as part of the demo for profileio
 	\end{itemize}
 	
-	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Experience 1 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
-	{\bf Software Engineer} \hfill {\it 2017 - 2019} \\
-	{\it Dreamworks Animation, Glendale, CA}
-	\begin{itemize}[leftmargin=*]
+	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Item 1 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
+	\hspace*{-0.25in}{\bf Software Engineer} \hfill 2017-2019 \\
+	\hspace*{-0.25in}{\it Dreamworks Animation, Glendale, CA}
+	\begin{itemize}[leftmargin=\parindent]
 	\setlength{\itemsep}{0mm} \smallskip
 	
 		\item Sample text written as part of the demo for profileio
@@ -59,10 +79,10 @@
 		\item Sample text written as part of the demo for profileio
 	\end{itemize}
 	
-	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Experience 2 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
-	{\bf Research Assistant} \hfill {\it 2013 - 2017} \\
-	{\it Texas A\&M, Madison, WI}
-	\begin{itemize}[leftmargin=*]
+	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Item 2 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
+	\hspace*{-0.25in}{\bf Research Assistant} \hfill 2013-2017 \\
+	\hspace*{-0.25in}{\it Texas A\&M, Madison, WI}
+	\begin{itemize}[leftmargin=\parindent]
 	\setlength{\itemsep}{0mm} \smallskip
 	
 		\item Implemented phase-change capabilities into in-house developed solver to perform two-phase boiling simulations
@@ -76,9 +96,9 @@
 	
 	
 	%%%%%%%%%%%%%%%%%%%%%%%%%%% List: Custom[0] %%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\section{\sc \large P\small {ATENTS} } \smallskip
-	\moveleft\hoffset\vbox{\hrule width\resumewidth height 0.25pt} \vskip -0.15in
-	\begin{itemize}[leftmargin=\parindent]\setlength{\itemsep}{3pt}
+	\section{\MakeUppercase{Patents}} \vskip 0.35in
+	\begin{itemize}[leftmargin=\parindent]
+	\setlength{\itemsep}{6pt}
 	
 	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Item ~~~~~~~~~~~~~~~~~~~~~~~~~~~%
 		\item[] {\bf Physics based simulations:} Level set method I for artistic simulations (9999998). Level set method II for artistic simulations (9999999).
@@ -89,47 +109,44 @@
 		
 	
 	%%%%%%%%%%%%%%%%%%%%%%%%%%% Awards %%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\section{\sc \large A\small {WARDS} \large \&\small {} \large A\small {CHIEVEMENTS} } \smallskip
-	\moveleft\hoffset\vbox{\hrule width\resumewidth height 0.25pt} \vskip -0.05in
-	\begin{itemize}[leftmargin=*]
-	\setlength{\itemsep}{2pt} \smallskip
+	\section{\MakeUppercase{Awards \& Achievements}} \vskip 0.35in
+	\begin{itemize}[leftmargin=\parindent]
+	\setlength{\itemsep}{0mm}
 	
-	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Award 0 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
-		\item Marshal award. {\it Best paper for demonstrating spray characteristics during so and so configuration}. ILASS, May 2114
-		\end{itemize}
+	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Item 0 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
+		\item[] {\bf Marshal award}:  Best paper for demonstrating spray characteristics during so and so configuration. ILASS, May 2114
+	\end{itemize}
 	
 	
 	
 	%%%%%%%%%%%%%%%%%%%%%%%%%%% Publications %%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\section{\sc \large P\small {UBLICATIONS} } \smallskip
-	\moveleft\hoffset\vbox{\hrule width\resumewidth height 0.25pt} \vskip -0.05in
-    \begin{itemize}[leftmargin=0pt]
-    \setlength{\itemsep}{2pt} \smallskip
+	\section{\MakeUppercase{Publications}} \vskip 0.35in
+	\begin{itemize}[leftmargin=\parindent]
+	\setlength{\itemsep}{4pt}
 	
-	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Publication 0 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
-	\item[] Author I, Author II. Made-up title of an article for ProfileIO' demo. {\it Journal of Computational Physics}, 353:377-406, 2018.
-	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Publication 1 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
-	\item[] Author I, Author II, and Author III. {\it Sample Title I Of A Book Made-Up To Give Demo For Profileio}, volume 3 of {\it Encyclopedia of Two-Phase Heat Transfer and Flow}. World Scientific, 2018.
-	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Publication 2 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
-	\item[] Author I, Author II, and Author III. Sample title II of an article made-up to give demo for profileio. {\it Journal of Computational Physics}, 334:81-101, 2017.
-	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Publication 3 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
-	\item[] Author I, Author II, and Author III. Sample title III of an article made-up to give demo for profileio. {\it International Journal of Heat and Fluid Flow}, 44:610-623, 2013.
-	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Publication 4 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
-	\item[] Author I and Author II. Sample title IV of an article made-up to give demo for profileio. {\it International Journal of Numerical Methods in Fluids}, 73(12):1011-1041, 2013.
-	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Publication 5 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
-	\item[] Author I, Author II, and Author III. Sample title V of an article made-up to give demo for profileio. {\it Computational Science \& Discovery}, 5:014016: 1-36, 2012.
-    \end{itemize}
+	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Item 0 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
+	\item[] \href{https://www.sciencedirect.com/science/article/pii/S0021999117307696}{Made-up title of an article for ProfileIO' demo}, Author I, Author II, Journal of Computational Physics, 353:377-406, 2018.
+	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Item 1 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
+	\item[] \href{https://www.worldscientific.com/doi/abs/10.1142/9789813229440_0008}{Sample title I of a book made-up to give demo for profileio}, Author I, Author II, and Author III, volume 3 of Encyclopedia of Two-Phase Heat Transfer and Flow, World Scientific, 2018.
+	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Item 2 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
+	\item[] \href{https://www.sciencedirect.com/science/article/pii/S0021999116307045}{Sample title II of an article made-up to give demo for profileio}, Author I, Author II, and Author III, Journal of Computational Physics, 334:81-101, 2017.
+	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Item 3 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
+	\item[] \href{https://www.sciencedirect.com/science/article/pii/S0142727X13001707}{Sample title III of an article made-up to give demo for profileio}, Author I, Author II, and Author III, International Journal of Heat and Fluid Flow, 44:610-623, 2013.
+	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Item 4 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
+	\item[] \href{http://onlinelibrary.wiley.com/doi/10.1002/fld.3834/abstract}{Sample title IV of an article made-up to give demo for profileio}, Author I and Author II, International Journal of Numerical Methods in Fluids, 73(12):1011-1041, 2013.
+	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Item 5 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
+	\item[] \href{http://iopscience.iop.org/1749-4699/5/1/014016}{Sample title V of an article made-up to give demo for profileio}, Author I, Author II, and Author III, Computational Science \& Discovery, 5:014016: 1-36, 2012.
+	\end{itemize}
 	
 	
 	
 	%%%%%%%%%%%%%%%%%%%%%%%%%%% Work/Experience: Custom[2] %%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\section{\sc \large V\small {OCATIONAL} \large T\small {RAINING} } \smallskip
-	\moveleft\hoffset\vbox{\hrule width\resumewidth height 0.25pt} \vskip -0.15in
+	\section{\MakeUppercase{Vocational Training}} \vskip 0.15in
 	
-	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Experience 0 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
-	{\bf Trainee} \hfill {\it 2014} \\
-	{\it Animation Studios}
-	\begin{itemize}[leftmargin=*]
+	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Item 0 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
+	\hspace*{-0.25in}{\bf Trainee} \hfill 2014 \\
+	\hspace*{-0.25in}{\it Animation Studios}
+	\begin{itemize}[leftmargin=\parindent]
 	\setlength{\itemsep}{0mm} \smallskip
 	
 		\item This is the sample text written for the demo of profileio
@@ -140,12 +157,12 @@
 		
 	
 	%%%%%%%%%%%%%%%%%%%%%%%%%%% Projects %%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\section{\sc \large P\small {ROJECTS} } \smallskip
-	\moveleft\hoffset\vbox{\hrule width\resumewidth height 0.25pt} \vskip -0.15in
-	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Project 0 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
-	{\bf ProfileIO} \\
-	with Lakshman Anumolu \hfill {\it 2020 - Present}
-	\begin{itemize}[leftmargin=*]
+	\section{\MakeUppercase{Projects}} \vskip 0.15in
+	
+	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Item 0 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
+	\hspace*{-0.25in}{\bf ProfileIO} \\
+	\hspace*{-0.25in}with Lakshman Anumolu \hfill 2020-Present
+	\begin{itemize}[leftmargin=\parindent]
 	\setlength{\itemsep}{0mm} \smallskip
 	
 	\item Delightfully simple website and resume generator for students, researchers, and engineers
@@ -153,20 +170,20 @@
 	\item Sample text written as part of the demo for profileio
 	\end{itemize}
 	
-	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Project 1 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
-	{\bf Project VI} \\
-	 \hfill {\it 2015 - Present}
-	\begin{itemize}[leftmargin=*]
+	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Item 1 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
+	\hspace*{-0.25in}{\bf Project VI} \\
+	\hspace*{-0.25in} \hfill 2015-Present
+	\begin{itemize}[leftmargin=\parindent]
 	\setlength{\itemsep}{0mm} \smallskip
 	
 	\item Sample text written as part of the demo for profileio
 	\item Sample text written as part of the demo for profileio
 	\end{itemize}
 	
-	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Project 2 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
-	{\bf Project V} \\
-	 \hfill {\it 2015 - Present}
-	\begin{itemize}[leftmargin=*]
+	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Item 2 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
+	\hspace*{-0.25in}{\bf Project V} \\
+	\hspace*{-0.25in} \hfill 2015-Present
+	\begin{itemize}[leftmargin=\parindent]
 	\setlength{\itemsep}{0mm} \smallskip
 	
 	\item Sample text written as part of the demo for profileio
@@ -176,30 +193,21 @@
 	
 	
 	%%%%%%%%%%%%%%%%%%%%%%%%%%% Education %%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\section{\sc \large E\small {DUCATION} } \smallskip
-	\moveleft\hoffset\vbox{\hrule width\resumewidth height 0.25pt} \vskip -0.05in
+	\section{\MakeUppercase{Education}} \vskip 0.15in
 	
-	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Education 0 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
-	\begin{itemize}[leftmargin=0pt]
-	\setlength{\itemsep}{0mm} \smallskip
-		\item[] {University of Wisconsin-Madison, \hfill }
-		\item[] {\it Ph.D. Computer Science \hfill }
-	\end{itemize}
-	
-	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Education 1 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
-	\begin{itemize}[leftmargin=0pt]
-	\setlength{\itemsep}{0mm} \smallskip
-		\item[] {Texas A\&M, \hfill }
-		\item[] {\it B.S. Computer Science and Mathematics \hfill }
-	\end{itemize}
-	
+	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Item 0 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
+	{\bf Ph.D. Computer Science} \hfill  \\
+	{University of Wisconsin-Madison \hfill } \\ \\
+	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Item 1 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
+	{\bf B.S. Computer Science and Mathematics} \hfill  \\
+	{Texas A\&M \hfill } 
 	
 	
 	
 	%%%%%%%%%%%%%%%%%%%%%%%%%%% List: Custom[1] %%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\section{\sc \large S\small {KILLS} } \smallskip
-	\moveleft\hoffset\vbox{\hrule width\resumewidth height 0.25pt} \vskip -0.15in
-	\begin{itemize}[leftmargin=\parindent]\setlength{\itemsep}{3pt}
+	\section{\MakeUppercase{Skills}} \vskip 0.35in
+	\begin{itemize}[leftmargin=\parindent]
+	\setlength{\itemsep}{6pt}
 	
 	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Item ~~~~~~~~~~~~~~~~~~~~~~~~~~~%
 		\item[] {\bf Programming Languages:} Fluent: C++, C, Go. Experienced: Python, JavaScript, PHP
@@ -214,28 +222,26 @@
 	
 	
 	%%%%%%%%%%%%%%%%%%%%%%%%%%% Languages %%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\section{\sc \large L\small {ANGUAGES} } \smallskip
-	\moveleft\hoffset\vbox{\hrule width\resumewidth height 0.25pt} \vskip -0.05in
-	\begin{itemize}[leftmargin=0pt]
-	\setlength{\itemsep}{0pt} \smallskip
+	\section{\MakeUppercase{Languages}} \vskip 0.35in
 	
-	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Language 0 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
-		\item[] Fluent: English, French
-	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Language 0 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
-		\item[] Native speaker: Spanish
+	\begin{itemize}[leftmargin=\parindent]
+	\setlength{\itemsep}{0mm}
+	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Item 0 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
+	\item[] Fluent: English, French
+	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Item 0 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
+	\item[] Native speaker: Spanish
 	\end{itemize}
+	
 	
 	
 	%%%%%%%%%%%%%%%%%%%%%%%%%%% Interests %%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\section{\sc \large I\small {NTERESTS} } \smallskip
-	\moveleft\hoffset\vbox{\hrule width\resumewidth height 0.25pt} \vskip -0.05in
-	\begin{itemize}[leftmargin=0pt]
-	\setlength{\itemsep}{0pt} \smallskip
+	\section{\MakeUppercase{Interests}} \vskip 0.35in
 	
-	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Interest 0 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
-		\item[] Sports: Soccer, Basketball
+	\begin{itemize}[leftmargin=\parindent]
+	\setlength{\itemsep}{0mm}
+	%~~~~~~~~~~~~~~~~~~~~~~~~~~ Item 0 ~~~~~~~~~~~~~~~~~~~~~~~~~~%
+	\item[] {\bf Sports:} Soccer, Basketball
 	\end{itemize}
-	
 	
 	
 	
