@@ -1,10 +1,14 @@
-I am currently employed at [This Company]. Before this I was in graduate school at [This University] where I earned a PhD. in [Computer Science](https://www.cs.wisc.edu/) under the supervision of [This Professor].
+I am currently working at the [Computational Thermo-Fluids Laboratory (CTF lab)], [Texas A&M University] as a research assistant. I am pursuing my PhD under the supervision of [Dr. Dorrin Jarrahbashi].
 
 **My interests:**
-* Computer Graphics
-* Develop web & desktop applications
 * Physics based Modeling and Simulations
+* Machine learning for combustion simulations
+* Turbulence modeling
+* Multi-phase flows
+* Supercritical/transcritical flows
 
-[This University]: https://wisc.edu
-[This Professor]: https://wisc.edu
-[This Company]: https://github.com/acrlakshman/profileio
+
+
+[Texas A&M University]: https://www.tamu.edu/
+[Dr. Dorrin Jarrahbashi]: https://engineering.tamu.edu/mechanical/profiles/jarrahbashi-dorrin.html
+[Computational Thermo-Fluids Laboratory (CTF lab)]: https://cfd.engr.tamu.edu/
