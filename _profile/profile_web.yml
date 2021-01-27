@@ -54,8 +54,8 @@ basics:
       render: true
     - value:
         network: linkedin
-        url: https://www.linkedin.com/in/lakshmananumolu/ # Later
-      render: false
+        url: https://www.linkedin.com/in/rohit-mishra-ab79428b/ # Later
+      render: true
     - value:
         network: twitter
         username: acrlakshman
