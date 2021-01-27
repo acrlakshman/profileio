@@ -71,7 +71,7 @@ work:
   list:
     - value:
         name: Texas A&M University
-        location: College, TX
+        location: College Station, TX
         brief: ""
         position: Research Assistant
         url: "tamu.edu"
@@ -79,11 +79,24 @@ work:
         endDate: Present # string
         active: true
         highlights:
-          - detail: Sample text written as part of the demo for profileio. Sample text written as part of the demo for profileio #Later
+          - detail: Developed multi-phase/multi-component dynamic mesh code in OpenFOAM for simulating internal nozzle (Funding: Cummins Inc.)
           - brief: "" #Bold
-            detail: This is the sample text written for the demo of profileio #Later
+            detail: Developing real gas combustion solver based on NGA for simulating sCO2 oxy-combustion
       render: true
-      
+   - value:
+        name: University of Wisconsin
+        location: Madison, WI
+        brief: ""
+        position: Research Assistant
+        url: "wisc.edu"
+        startDate: "2016" # string
+        endDate: "2018" # string
+        active: true
+        highlights:
+          - detail: Evaluated surface-film models available in OpenFOAM and compared it by implementing new models in LES dynamic structure framework 
+          - brief: "" #Bold
+            detail: 
+      render: true    
 education:
   label: Education
   rank: 1
