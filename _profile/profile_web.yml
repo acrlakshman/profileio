@@ -87,7 +87,7 @@ work:
         name: University of Wisconsin
         location: Madison, WI
         brief: ""
-        position: Research Assistant
+        position: Research Assistant  
         url: "wisc.edu"
         startDate: "2016" # string
         endDate: "2018" # string
@@ -95,7 +95,7 @@ work:
         highlights:
           - detail: Evaluated surface-film models available in OpenFOAM and compared it by implementing new models in LES dynamic structure framework 
           - brief: "" #Bold
-            detail: 
+            detail: Developing
       render: true    
 education:
   label: Education
