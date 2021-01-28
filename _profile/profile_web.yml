@@ -83,7 +83,7 @@ work:
           - brief: "" #Bold
             detail: Developing real gas combustion solver based on NGA for simulating sCO2 oxy-combustion
       render: true
-   - value:
+    - value:
         name: University of Wisconsin
         location: Madison, WI
         brief: ""
