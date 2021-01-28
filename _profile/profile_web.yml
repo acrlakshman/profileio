@@ -79,7 +79,7 @@ work:
         endDate: Present # string
         active: true
         highlights:
-          - detail: Developed multi-phase/multi-component dynamic mesh code in OpenFOAM for simulating internal nozzle (Funding: Cummins Inc.)
+          - detail: Developed multi-phase/multi-component dynamic mesh code in OpenFOAM for simulating internal nozzle (Funding - Cummins Inc.)
           - brief: "" #Bold
             detail: Developing real gas combustion solver based on NGA for simulating sCO2 oxy-combustion
       render: true
