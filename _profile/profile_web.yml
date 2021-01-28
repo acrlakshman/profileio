@@ -155,7 +155,7 @@ projects:
         description: "Developed OpenFOAM code to compare widely used surface-film models that simulates the drop-wall interaction of an impinging spray in a combustion chamber"
         team: "with Dr. Christopher J. Rutland" # [Lakshman Anumolu](//lakshmananumolu.com)_" 
         note: ""
-        thumbnail: surface_film2.jpg 
+        thumbnail: surface_film2.PNG
         highlights:
           - brief: ""
             detail: Website and resume generator via YAML
@@ -195,16 +195,16 @@ publications:
   list:
     - value:
         type: article #Book, in conference, in proceedings, thesis
-        author: "**Rohit Mishra**, Author II"
-        title: "Made-up title of an article for ProfileIO' demo"
-        journal: Journal of Computational Physics
+        author: "**Rohit Mishra**, Daniel Jiwani, Dorrin Jarrahbashi"
+        title: "Three-Component Multi-Fluid Modeling of Pseudo-Cavitation Phenomenon in Diesel Injec-tor Nozzles"
+        journal: International Journal of Engine Research, SAGE Publications
         volume: 353
         year: 2018
         number: 0
         pages: 377-406
         thumbnail: gals_phase_change.png
         # If webPage is not provided, then url will be linked in the homepage for this project
-        url: https://www.sciencedirect.com/science/article/pii/S0021999117307696
+        url: # add later
         # webPage:
         #   slug: levelset-phasechange
         #   detail: publications/levelset-phasechange.md
@@ -216,11 +216,11 @@ gallery:
   list:
     - value:
         type: image
-        src: profileio.png
+        src: Figure-10b.jpg
         caption:
-          title: ProfileIO
-          description: "Delightfully simple website and resume generator for students, researchers, and engineers"
-      render: false
+          title: Air and vapor bubbles in a diesel injector nozzle
+          description: "This picture shows the simulation results for internal nozzle with blue representing air bubbles and red shows the vapor bubbles simultaneously forming in regions of low pressure"
+      render: true
     - value:
         type: image
         src: scene_templates.png
@@ -255,13 +255,19 @@ skills:
   rank: 6
   list:
     - value:
-        name: Web development
+        name: Multiphysics code development
         level: Master
         keywords:
-          - HTML
-          - CSS
-          - Javascript
-      render: false
+          - C++
+          - FORTRAN
+          - Python
+      render: true
+    - value:
+        name: Machine learning
+        level: Master
+        keywords:
+          - Python
+      render: true  
 languages:
   label: Languages
   rank: 7
@@ -285,9 +291,9 @@ references:
   rank: 9
   list:
     - value:
-        name: John Doe
+        name: Christopher J. Rutland
         title: Prof.
-        affiliation: University Name
+        affiliation: University of Wisconsin, Madison
         address: XXXX University Ave
         postalCode: WI XXXXX
         city: City
@@ -295,7 +301,7 @@ references:
         region: State
         phoneNumber: '1111111111' # string
         email: user@domain.edu
-      render: false
+      render: true
 custom:
   # In the homepage, these sections are always rendered at the end.
   # If these sections are to be rendered in homepage, their order will be as listed below.
