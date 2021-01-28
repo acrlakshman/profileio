@@ -126,8 +126,8 @@ projects:
   list:
     - value:
         name: Degassing in diesel injector nozzles
-        description: "Developing OpenFOAM code for 3 component"
-        team: "with Dorrin Jarrahbashi" # [Lakshman Anumolu](//lakshmananumolu.com)_" 
+        description: "Developed OpenFOAM code for 3 component internal nozzle simulation predicting degassing and cavitation from inception in a dynamic mesh environment"
+        team: "with Dr. Dorrin Jarrahbashi" # [Lakshman Anumolu](//lakshmananumolu.com)_" 
         note: ""
         thumbnail: Figure-10b.jpg #Later
         highlights:
@@ -150,6 +150,33 @@ projects:
        #   slug: profileio
        #   detail: project/profileio.md # if the content is empty, "url" will be linked in the homepage for the project
       render: true
+  list:
+    - value:
+        name: Evaluation of surface film models for engine simulations
+        description: "Developed OpenFOAM code to compare widely used surface-film models that simulates the drop-wall interaction of an impinging spray in a combustion chamber"
+        team: "with Dr. Christopher J. Rutland" # [Lakshman Anumolu](//lakshmananumolu.com)_" 
+        note: ""
+        thumbnail: surface_film2.jpg 
+        highlights:
+          - brief: ""
+            detail: Website and resume generator via YAML
+        keywords:
+          - resume
+          - website
+          - YAML
+          - markdown
+        startDate: '2020' # string
+        endDate: Present
+        # If webPage is not provided, then url will be linked in the homepage for this project
+        url: https://github.com/acrlakshman/profileio
+        roles:
+          - Architect
+          - Developer
+        type: application
+       # webPage:
+       #   slug: profileio
+       #   detail: project/profileio.md # if the content is empty, "url" will be linked in the homepage for the project
+      render: true 
     
 awards:
   label: Awards & Achievements
