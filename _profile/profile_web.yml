@@ -150,7 +150,6 @@ projects:
        #   slug: profileio
        #   detail: project/profileio.md # if the content is empty, "url" will be linked in the homepage for the project
       render: true
-  list:
     - value:
         name: Evaluation of surface film models for engine simulations
         description: "Developed OpenFOAM code to compare widely used surface-film models that simulates the drop-wall interaction of an impinging spray in a combustion chamber"
