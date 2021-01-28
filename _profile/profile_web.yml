@@ -129,7 +129,7 @@ projects:
         description: "Developing OpenFOAM code for 3 component"
         team: "with Dorrin Jarrahbashi" # [Lakshman Anumolu](//lakshmananumolu.com)_" 
         note: ""
-        thumbnail: profileio.png #Later
+        thumbnail: Figure-10b.jpg #Later
         highlights:
           - brief: ""
             detail: Website and resume generator via YAML
