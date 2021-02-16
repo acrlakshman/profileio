@@ -204,7 +204,7 @@ publications:
         pages: 377-406
         thumbnail: Figure-10b.jpg
         # If webPage is not provided, then url will be linked in the homepage for this project
-        url: # add later
+        url: ' ' # add later
         # webPage:
         #   slug: levelset-phasechange
         #   detail: publications/levelset-phasechange.md
