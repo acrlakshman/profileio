@@ -141,7 +141,7 @@ projects:
         startDate: '2020' # string
         endDate: Present
         # If webPage is not provided, then url will be linked in the homepage for this project
-        url: https://github.com/acrlakshman/profileio
+        url: https://rohitmishranitrr.github.io/pseudoCavitation
         roles:
           - Architect
           - Developer
@@ -167,7 +167,7 @@ projects:
         startDate: '2020' # string
         endDate: Present
         # If webPage is not provided, then url will be linked in the homepage for this project
-        url: https://github.com/acrlakshman/profileio
+        url: https://rohitmishranitrr.github.io/surfaceFilm
         roles:
           - Architect
           - Developer
@@ -196,7 +196,7 @@ publications:
     - value:
         type: article #Book, in conference, in proceedings, thesis
         author: "**Rohit Mishra**, Daniel Jiwani, Dorrin Jarrahbashi"
-        title: "Three-Component Multi-Fluid Modeling of Pseudo-Cavitation Phenomenon in Diesel Injec-tor Nozzles"
+        title: "Three-Component Multi-Fluid Modeling of Pseudo-Cavitation Phenomenon in Diesel Injector Nozzles"
         journal: International Journal of Engine Research, SAGE Publications
         volume: 353
         year: 2018
@@ -204,11 +204,28 @@ publications:
         pages: 377-406
         thumbnail: Figure-10b.jpg
         # If webPage is not provided, then url will be linked in the homepage for this project
-        url: ' ' # add later
+        url: 'https://journals.sagepub.com/doi/10.1177/1468087421993348' # add later
         # webPage:
         #   slug: levelset-phasechange
         #   detail: publications/levelset-phasechange.md
       render: true
+  list:
+    - value:
+        type: article #Book, in conference, in proceedings, thesis
+        author: "**Rohit Mishra**, Christopher J. Rutland"
+        title: "Evaluating Surface Film Models for Multi-Dimensional Modeling of Spray-Wall Interaction"
+        journal: SAE World Congress, Conference paper
+        volume: 
+        year: 2019
+        number: 
+        pages: 
+        thumbnail: surface_film2.PNG
+        # If webPage is not provided, then url will be linked in the homepage for this project
+        url: 'https://saemobilus.sae.org/content/2019-01-0209' # add later
+        # webPage:
+        #   slug: levelset-phasechange
+        #   detail: publications/levelset-phasechange.md
+      render: true 
     
 gallery:
   label: Gallery
