@@ -209,7 +209,7 @@ publications:
         #   slug: levelset-phasechange
         #   detail: publications/levelset-phasechange.md
       render: true
-  list:
+
     - value:
         type: article #Book, in conference, in proceedings, thesis
         author: "**Rohit Mishra**, Christopher J. Rutland"
