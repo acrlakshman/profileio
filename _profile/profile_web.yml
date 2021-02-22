@@ -141,7 +141,7 @@ projects:
         startDate: '2020' # string
         endDate: Present
         # If webPage is not provided, then url will be linked in the homepage for this project
-        url: 'https://rohitmishranitrr.github.io/pseudoCavitation'
+        url:  ' ' #'https://rohitmishranitrr.github.io/pseudoCavitation'
         roles:
           - Architect
           - Developer
@@ -167,7 +167,7 @@ projects:
         startDate: '2020' # string
         endDate: Present
         # If webPage is not provided, then url will be linked in the homepage for this project
-        url: 'https://rohitmishranitrr.github.io/surfaceFilm'
+        url: ' ' #'https://rohitmishranitrr.github.io/surfaceFilm'
         roles:
           - Architect
           - Developer
