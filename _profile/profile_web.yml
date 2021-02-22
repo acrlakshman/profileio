@@ -198,10 +198,10 @@ publications:
         author: "**Rohit Mishra**, Daniel Jiwani, Dorrin Jarrahbashi"
         title: "Three-Component Multi-Fluid Modeling of Pseudo-Cavitation Phenomenon in Diesel Injector Nozzles"
         journal: International Journal of Engine Research, SAGE Publications
-        volume: 353
-        year: 2018
-        number: 0
-        pages: 377-406
+        volume: 
+        year: 2021
+        number: 
+        pages: 
         thumbnail: Figure-10b.jpg
         # If webPage is not provided, then url will be linked in the homepage for this project
         url: 'https://journals.sagepub.com/doi/10.1177/1468087421993348' # add later
