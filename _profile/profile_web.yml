@@ -92,21 +92,7 @@ work:
             detail: Developing real gas combustion solver based on NGA for simulating sCO2 oxy-combustion
       render: true
     - value:
-        name: Dreamworks Animation
-        location: Glendale, CA
-        brief: ""
-        position: Software Engineer
-        url: "https://www.dreamworks.com/"
-        startDate: "2017" # string
-        endDate: "2019" # string
-        active: false # `true` if currently working, else `false`
-        highlights:
-          - detail: Sample text written as part of the demo for profileio. Sample text written as part of the demo for profileio
-          - brief: ""
-            detail: This is the sample text written for the demo of profileio
-      render: true
-    - value:
-        name: Texas A&M
+        name: University of Wisconsin
         location: Madison, WI
         brief: ""
         position: Research Assistant  
@@ -117,7 +103,7 @@ work:
         highlights:
           - detail: Evaluated surface-film models available in OpenFOAM and compared it by implementing new models in LES dynamic structure framework 
           - brief: "" #Bold
-            detail: Developing
+            detail: Implemented and tested three widely used surface film models. The surface film models were implemented with an in-house LES dynamic structure turbulence tuned for spray breakup and atomization. 
       render: true
 education:
   label: Education
@@ -135,7 +121,7 @@ education:
           - AERO-641 #Later
       render: true
     - value:
-        institution: Texas A&M
+        institution: University of Wisconsin Madison
         url: https://wisc.edu
         major: Mechanical Engineering
         minor: ''
@@ -147,7 +133,7 @@ projects:
   maxItemsToRender: 3 # If this is not provided, it defaults to 5 (src/config.ts)
   list:
     - value:
-        name: Degassing in diesel injector nozzles
+        name: Degassing and cavitation in diesel injector nozzles
         description: "Developed OpenFOAM code for 3 component internal nozzle simulation predicting degassing and cavitation from inception in a dynamic mesh environment"
         team: "with Dr. Dorrin Jarrahbashi" # [Lakshman Anumolu](//lakshmananumolu.com)_" 
         note: ""
@@ -169,8 +155,8 @@ projects:
           - Developer
         type: application
         webPage:
-          slug: profileio #name 
-          detail: project/profileio.md # if the content is empty, "url" will be linked in the homepage for the project
+          slug: degassing #name 
+          detail: project/degassing.md # if the content is empty, "url" will be linked in the homepage for the project
       render: true
     - value:
         name: Evaluation of surface film models for engine simulations
@@ -194,9 +180,9 @@ projects:
           - Architect
           - Developer
         type: application
-       # webPage:
-       #   slug: profileio
-       #   detail: project/profileio.md # if the content is empty, "url" will be linked in the homepage for the project
+        webPage:
+          slug: surfaceFilm
+          detail: project/surfaceFilm # if the content is empty, "url" will be linked in the homepage for the project
       render: true 
     
 awards:
@@ -213,7 +199,7 @@ publications:
   # Format follows: http://web.mit.edu/rsi/www/pdfs/bibtex-format.pdf
   label: Publications
   rank: 4
-  maxItemsToRender: 1 # If this is not provided, it defaults to 5 (src/config.ts)
+  maxItemsToRender: 2 # If this is not provided, it defaults to 5 (src/config.ts)
   list:
     - value:
         type: article #Book, in conference, in proceedings, thesis
