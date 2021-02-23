@@ -1,4 +1,4 @@
-## [Degassing](https://rohitmishranitrr.github.io/degassing)
+## [ML for flamelet tables](https://rohitmishranitrr.github.io/MLcombustion)
 
 * Highlights:
   * Created 4D flamelet tables to train the ML algorithm
