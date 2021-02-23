@@ -168,9 +168,9 @@ projects:
           - Architect
           - Developer
         type: application
-       # webPage:
-       #   slug: profileio
-       #   detail: project/profileio.md # if the content is empty, "url" will be linked in the homepage for the project
+        webPage:
+          slug: profileio #name 
+          detail: project/profileio.md # if the content is empty, "url" will be linked in the homepage for the project
       render: true
     - value:
         name: Evaluation of surface film models for engine simulations
