@@ -130,7 +130,7 @@ education:
 projects:
   label: "Projects"
   rank: 3
-  maxItemsToRender: 3 # If this is not provided, it defaults to 5 (src/config.ts)
+  maxItemsToRender: 7 # If this is not provided, it defaults to 5 (src/config.ts)
   list:
     - value:
         name: Degassing and cavitation in diesel injector nozzles
