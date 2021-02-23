@@ -1,25 +1,11 @@
-## [Degassing](https://rohitmishranitrr.github.io/degassing)
+## [Degassing](https://rohitmishranitrr.github.io/EOR)
 
-* [Paper](https://github.com/rohitmishranitrr/OpenFOAM)
 * Highlights:
-  * Bai-Gossman surface film model fixed bug (implementation error fixed)
-  * Added two surface film models namely : Stanton-Rutland model and O'Rourke-Amsden model
-  * Added code to find secondary parcel (parcels after interacting with the wall) properties
-  * Made the surface film models compatible with the advanced LES dynamic structure turbulence model
+  * Empirical shear thinning power law model developed for polymers in porous media simulation
+  * Finds viscosity at any concentration as a function of space and time
+  * 2nd invariant of Deformation tensor used to find shear rate and relate to viscosity
+  * Two polymer widely used in Enhanced Oil Recovery compared: Schizophyllan and Xanthane
 ---
 ## Results 
 
-
----
-
-## [Moving needle](https://rohitmishranitrr.github.io/degassing)
-
-* [Documentation](https://github.com/rohitmishranitrr/OpenFOAM)
-* Highlights:
-  * Bai-Gossman surface film model fixed bug (implementation error fixed)
-  * Added two surface film models namely : Stanton-Rutland model and O'Rourke-Amsden model
-  * Added code to find secondary parcel (parcels after interacting with the wall) properties
-  * Made the surface film models compatible with the advanced LES dynamic structure turbulence model
-  
-  ---
-  ## Results
+![EOR](EOR.PNG)
