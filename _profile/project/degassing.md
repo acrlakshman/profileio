@@ -11,7 +11,7 @@
 ---
 ## Results 
 
-![degassing](Figure-10b.jpg)
+![degassing](Media1.gif)
 ---
 
 ## [Moving needle](https://rohitmishranitrr.github.io/degassing)
