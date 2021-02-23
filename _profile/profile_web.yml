@@ -186,7 +186,7 @@ projects:
       render: true
     - value:
         name: Unsupervised clustering Machine learning for flamelet tables
-        description: "Implemented unsupervisedf clustering (K-Means Clustering) as a gating network for MoE framework for learning flamelet tables"
+        description: "Implemented unsupervised clustering (K-Means Clustering) as a gating network for MoE framework for learning flamelet tables"
         team: "with Dr. Dorrin Jarrahbashi" # [Lakshman Anumolu](//lakshmananumolu.com)_" 
         note: ""
         thumbnail: MLflamelet.PNG #Later
