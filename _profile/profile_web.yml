@@ -208,7 +208,24 @@ publications:
         # webPage:
         #   slug: levelset-phasechange
         #   detail: publications/levelset-phasechange.md
+       render: true
+    - value:
+        type: article #Book, in conference, in proceedings, thesis
+        author: "**Rohit Mishra**, Christopher J. Rutland"
+        title: "Evaluating Surface Film Models for Multi-Dimensional Modeling of Spray-Wall Interaction"
+        journal: SAE World Congress, Conference paper
+        volume: 
+        year: 2019
+        number: 
+        pages: 
+        thumbnail: surface_film2.PNG
+        # If webPage is not provided, then url will be linked in the homepage for this project
+        url: 'https://saemobilus.sae.org/content/2019-01-0209' # add later
+        # webPage:
+        #   slug: levelset-phasechange
+        #   detail: publications/levelset-phasechange.md
       render: true
+ 
    
     
 gallery:
