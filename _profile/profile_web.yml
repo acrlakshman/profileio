@@ -189,7 +189,7 @@ projects:
         description: "Developed OpenFOAM code for 3 component internal nozzle simulation predicting degassing and cavitation from inception in a dynamic mesh environment"
         team: "with Dr. Dorrin Jarrahbashi" # [Lakshman Anumolu](//lakshmananumolu.com)_" 
         note: ""
-        thumbnail: Figure-10b.jpg #Later
+        thumbnail: MLflamelet.PNG #Later
         highlights:
           - brief: ""
             detail: Website and resume generator via YAML
@@ -215,7 +215,7 @@ projects:
         description: "Working on a finite difference code to model supercritical sCO2 combustion"
         team: "with Dr. Dorrin Jarrahbashi" # [Lakshman Anumolu](//lakshmananumolu.com)_" 
         note: ""
-        thumbnail: Figure-10b.jpg #Later
+        thumbnail: n2Supercritical.PNG #Later
         highlights:
           - brief: ""
             detail: Website and resume generator via YAML
@@ -241,7 +241,7 @@ projects:
         description: "Developed a new empirical model for shear thinning behavior of polymer in enhanced oil recovery"
         team: "with Dr. Prabir Daripa" # [Lakshman Anumolu](//lakshmananumolu.com)_" 
         note: ""
-        thumbnail: Figure-10b.jpg #Later
+        thumbnail: EOR.PNG #Later
         highlights:
           - brief: ""
             detail: Website and resume generator via YAML
