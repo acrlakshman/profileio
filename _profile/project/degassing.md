@@ -23,4 +23,4 @@
   
   ---
   ## Results
-![movingNozzle](movingNozzle.PNG)
+![movingNeedle](movingNeedle_alpha.gif)
