@@ -6,6 +6,7 @@ config:
     value: panther
     render: true
     meta:
+      # below keys are used by resume parser but not by web parser
       showPageNumbers: true
       hideSectionLines: false
       pantherHeaderNameFontSize: 45
@@ -17,6 +18,7 @@ config:
       enable: false
   meta:
     showResumeLink: true
+    # below keys are used by web parser but not by resume parser
     resume: resume.pdf # path (relative to _profile/files/) for user submitted resume
 basics:
   name:
@@ -89,7 +91,6 @@ work:
           - brief: "" #Bold
             detail: This is the sample text written for the demo of profileio #Later
       render: true
-      
 education:
   label: Education
   rank: 1
@@ -106,7 +107,7 @@ education:
           - AERO-641 #Later
       render: true
     - value:
-        institution: University of Wisconsin-Madison
+        institution: Texas A&M
         url: https://wisc.edu
         major: Mechanical Engineering
         minor: ''
@@ -272,15 +273,15 @@ custom:
     list:
       - value:
           # text in brief will be displayed in bold.
-          brief: "Physics based simulations:"
-          detail: "Level set method I for artistic simulations (9999998). Level set method II for artistic simulations (9999999)."
+          brief: 'Physics based simulations:'
+          detail: 'Level set method I for artistic simulations (9999998). Level set method II for artistic simulations (9999999).'
         render: true
       - value:
-          brief: "Experimental physics:"
-          detail: "Novel PIV method to quatify velocity of fluid flow through swirl atomizer (9999997)"
+          brief: 'Experimental physics:'
+          detail: 'Novel PIV method to quatify velocity of fluid flow through swirl atomizer (9999997)'
         render: true
     meta:
-      listStyleType: "none" # no bullets
+      listStyleType: 'none' # no bullets
 
   # Skills
   - label: Skills
@@ -288,33 +289,33 @@ custom:
     type: list
     list:
       - value:
-          brief: "Programming Languages:"
-          detail: "Fluent: C++, C, Go. Experienced: Python, JavaScript, PHP"
+          brief: 'Programming Languages:'
+          detail: 'Fluent: C++, C, Go. Experienced: Python, JavaScript, PHP'
         render: true
       - value:
-          brief: "Libraries:"
-          detail: "Eigen, NumPy, MPI, etc."
+          brief: 'Libraries:'
+          detail: 'Eigen, NumPy, MPI, etc.'
         render: true
       - value:
-          brief: "Tools:"
-          detail: "CMake, gdb, valgrind, etc."
+          brief: 'Tools:'
+          detail: 'CMake, gdb, valgrind, etc.'
         render: true
     meta:
-      listStyleType: "none"
+      listStyleType: 'none'
 
   # Add `Vocational Training` section as "work" type.
   - label: Vocational Training
     rank: 5
-    type: "work"
+    type: 'work'
     work:
       - value:
           name: Animation Studios
-          location: ""
-          brief: ""
+          location: ''
+          brief: ''
           position: Trainee
-          url: ""
-          startDate: "" # string
-          endDate: "2014" # string
+          url: ''
+          startDate: '' # string
+          endDate: '2014' # string
           active: true
           highlights:
             - detail: This is the sample text written for the demo of profileio

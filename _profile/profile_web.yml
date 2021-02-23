@@ -5,12 +5,20 @@ config:
   theme:
     value: basic
     render: true
+    meta:
+      # below keys are used by resume parser but not by web parser
+      showPageNumbers: true
+      hideSectionLines: false
+      pantherHeaderNameFontSize: 45
+      pantherHeaderColumnOneWidth: 0.6
+      pantherHeaderColumnTwoWidth: 0.4
   analytics:
     ga:
       trackingId: ""
       enable: false
   meta:
     showResumeLink: true
+    # below keys are used by web parser but not by resume parser
     resume: resume.pdf # path (relative to _profile/files/) for user submitted resume
 basics:
   name:
@@ -84,7 +92,21 @@ work:
             detail: Developing real gas combustion solver based on NGA for simulating sCO2 oxy-combustion
       render: true
     - value:
-        name: University of Wisconsin
+        name: Dreamworks Animation
+        location: Glendale, CA
+        brief: ""
+        position: Software Engineer
+        url: "https://www.dreamworks.com/"
+        startDate: "2017" # string
+        endDate: "2019" # string
+        active: false # `true` if currently working, else `false`
+        highlights:
+          - detail: Sample text written as part of the demo for profileio. Sample text written as part of the demo for profileio
+          - brief: ""
+            detail: This is the sample text written for the demo of profileio
+      render: true
+    - value:
+        name: Texas A&M
         location: Madison, WI
         brief: ""
         position: Research Assistant  
@@ -96,7 +118,7 @@ work:
           - detail: Evaluated surface-film models available in OpenFOAM and compared it by implementing new models in LES dynamic structure framework 
           - brief: "" #Bold
             detail: Developing
-      render: true    
+      render: true
 education:
   label: Education
   rank: 1
@@ -113,7 +135,7 @@ education:
           - AERO-641 #Later
       render: true
     - value:
-        institution: University of Wisconsin-Madison
+        institution: Texas A&M
         url: https://wisc.edu
         major: Mechanical Engineering
         minor: ''
@@ -198,26 +220,26 @@ publications:
         author: "**Rohit Mishra**, Daniel Jiwani, Dorrin Jarrahbashi"
         title: "Three-Component Multi-Fluid Modeling of Pseudo-Cavitation Phenomenon in Diesel Injector Nozzles"
         journal: International Journal of Engine Research, SAGE Publications
-        volume: 
+        volume: 0
         year: 2021
-        number: 
-        pages: 
+        number: 0
+        pages: ''
         thumbnail: Figure-10b.jpg
         # If webPage is not provided, then url will be linked in the homepage for this project
         url: 'https://journals.sagepub.com/doi/10.1177/1468087421993348' # add later
         # webPage:
         #   slug: levelset-phasechange
         #   detail: publications/levelset-phasechange.md
-       render: true
+      render: true
     - value:
         type: article #Book, in conference, in proceedings, thesis
         author: "**Rohit Mishra**, Christopher J. Rutland"
         title: "Evaluating Surface Film Models for Multi-Dimensional Modeling of Spray-Wall Interaction"
         journal: SAE World Congress, Conference paper
-        volume: 
+        volume: 0
         year: 2019
-        number: 
-        pages: 
+        number: 0
+        pages: ''
         thumbnail: surface_film2.PNG
         # If webPage is not provided, then url will be linked in the homepage for this project
         url: 'https://saemobilus.sae.org/content/2019-01-0209' # add later
@@ -225,9 +247,6 @@ publications:
         #   slug: levelset-phasechange
         #   detail: publications/levelset-phasechange.md
       render: true
- 
-   
-    
 gallery:
   label: Gallery
   rank: 5

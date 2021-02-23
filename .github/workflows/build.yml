@@ -135,7 +135,7 @@ jobs:
       run: |
         /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
         brew tap homebrew/cask
-        brew cask install mactex-no-gui
+        brew install --cask mactex-no-gui
         eval "$(/usr/libexec/path_helper)"
         xelatex resume.tex
     - uses: actions/upload-artifact@v2
