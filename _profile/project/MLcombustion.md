@@ -1,25 +1,11 @@
 ## [Degassing](https://rohitmishranitrr.github.io/degassing)
 
-* [Paper](https://github.com/rohitmishranitrr/OpenFOAM)
 * Highlights:
-  * Bai-Gossman surface film model fixed bug (implementation error fixed)
-  * Added two surface film models namely : Stanton-Rutland model and O'Rourke-Amsden model
-  * Added code to find secondary parcel (parcels after interacting with the wall) properties
-  * Made the surface film models compatible with the advanced LES dynamic structure turbulence model
----
-## Results 
-
-
----
-
-## [Moving needle](https://rohitmishranitrr.github.io/degassing)
-
-* [Documentation](https://github.com/rohitmishranitrr/OpenFOAM)
-* Highlights:
-  * Bai-Gossman surface film model fixed bug (implementation error fixed)
-  * Added two surface film models namely : Stanton-Rutland model and O'Rourke-Amsden model
-  * Added code to find secondary parcel (parcels after interacting with the wall) properties
-  * Made the surface film models compatible with the advanced LES dynamic structure turbulence model
+  * Created 4D flamelet tables to train the ML algorithm
+  * Used TensorFlow to test different clustering algorithms along with DNN for identifying manifolds
+  * New model can predict the missing data with lower MAE
+  * Future work will involve creating 5D tables with pressure being a variable
   
   ---
-  ## Results
+## Results
+![K-Means Clustering](MLflamelet.PNG)
