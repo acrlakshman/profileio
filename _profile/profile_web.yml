@@ -183,8 +183,85 @@ projects:
         webPage:
           slug: surfaceFilm
           detail: project/surfaceFilm.md # if the content is empty, "url" will be linked in the homepage for the project
-      render: true 
-    
+      render: true
+    - value:
+        name: Unsupervised clustering Machine learning for flamelet tables
+        description: "Developed OpenFOAM code for 3 component internal nozzle simulation predicting degassing and cavitation from inception in a dynamic mesh environment"
+        team: "with Dr. Dorrin Jarrahbashi" # [Lakshman Anumolu](//lakshmananumolu.com)_" 
+        note: ""
+        thumbnail: Figure-10b.jpg #Later
+        highlights:
+          - brief: ""
+            detail: Website and resume generator via YAML
+        keywords:
+          - resume
+          - website
+          - YAML
+          - markdown
+        startDate: '2020' # string
+        endDate: Present
+        # If webPage is not provided, then url will be linked in the homepage for this project
+        url:  ' ' #'https://rohitmishranitrr.github.io/pseudoCavitation'
+        roles:
+          - Architect
+          - Developer
+        type: application
+        webPage:
+          slug: MLcombustion #name 
+          detail: project/MLcombustion.md # if the content is empty, "url" will be linked in the homepage for the project
+      render: true  
+    - value:
+        name: Supercritical oxy-combustion modeling with CO2 dilution
+        description: "Working on a finite difference code to model supercritical sCO2 combustion"
+        team: "with Dr. Dorrin Jarrahbashi" # [Lakshman Anumolu](//lakshmananumolu.com)_" 
+        note: ""
+        thumbnail: Figure-10b.jpg #Later
+        highlights:
+          - brief: ""
+            detail: Website and resume generator via YAML
+        keywords:
+          - resume
+          - website
+          - YAML
+          - markdown
+        startDate: '2020' # string
+        endDate: Present
+        # If webPage is not provided, then url will be linked in the homepage for this project
+        url:  ' ' #'https://rohitmishranitrr.github.io/pseudoCavitation'
+        roles:
+          - Architect
+          - Developer
+        type: application
+        webPage:
+          slug: oxyCombustion #name 
+          detail: project/oxyCombustion.md # if the content is empty, "url" will be linked in the homepage for the project
+      render: true
+    - value:
+        name: Implementing non-Newtonian effects for polymers in porous media solver
+        description: "Developed a new empirical model for shear thinning behavior of polymer in enhanced oil recovery"
+        team: "with Dr. Prabir Daripa" # [Lakshman Anumolu](//lakshmananumolu.com)_" 
+        note: ""
+        thumbnail: Figure-10b.jpg #Later
+        highlights:
+          - brief: ""
+            detail: Website and resume generator via YAML
+        keywords:
+          - resume
+          - website
+          - YAML
+          - markdown
+        startDate: '2020' # string
+        endDate: Present
+        # If webPage is not provided, then url will be linked in the homepage for this project
+        url:  ' ' #'https://rohitmishranitrr.github.io/pseudoCavitation'
+        roles:
+          - Architect
+          - Developer
+        type: application
+        webPage:
+          slug: EOR #name 
+          detail: project/EOR.md # if the content is empty, "url" will be linked in the homepage for the project
+      render: true
 awards:
   label: Awards & Achievements
   rank: 11
