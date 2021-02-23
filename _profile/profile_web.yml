@@ -182,7 +182,7 @@ projects:
         type: application
         webPage:
           slug: surfaceFilm
-          detail: project/surfaceFilm # if the content is empty, "url" will be linked in the homepage for the project
+          detail: project/surfaceFilm.md # if the content is empty, "url" will be linked in the homepage for the project
       render: true 
     
 awards:
