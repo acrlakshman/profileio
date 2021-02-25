@@ -8,10 +8,11 @@
   * Parameteric study was performed for Schnerr-Sauer cavitation model and degassing model
   * New model has been validated against the data
   * New model performs well and is able to capture the degassing and cavitation effects
----
-## Results 
 
+  
+  ## Results 
 ![degassing](Media1.gif)
+
 ---
 
 ## [Moving needle](https://rohitmishranitrr.github.io/degassing)
@@ -21,9 +22,12 @@
   * Full simulation ran for three pressures: 900bar, 1200bar, 1800bar
   * Cavitation observed at different times for different injector pressures
   
-  ---
+  
   ## Results
 ![movingNeedle](movingNeedle_alpha.gif)
+
+
+---
 
 ## [Spray modeling](https://rohitmishranitrr.github.io/degassing)
 
@@ -32,6 +36,7 @@
   * Lagrangian-Eulerian simulations were run for RANS and LES turbulence modeling 
   * Multiple spray sub-models deployed to bettter match the penetration length
   
-  ---
+  
   ## Results
 ![spray](sprayRANS.gif)
+---
