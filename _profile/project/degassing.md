@@ -24,3 +24,14 @@
   ---
   ## Results
 ![movingNeedle](movingNeedle_alpha.gif)
+
+## [Spray modeling](https://rohitmishranitrr.github.io/degassing)
+
+* Highlights:
+  * Dynamic meshing capability in OFv6 has been explored for diesel spray injection
+  * Lagrangian-Eulerian simulations were run for RANS and LES turbulence modeling 
+  * Multiple spray sub-models deployed to bettter match the penetration length
+  
+  ---
+  ## Results
+![spray](sprayRANS.gif)
