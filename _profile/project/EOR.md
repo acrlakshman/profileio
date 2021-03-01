@@ -8,4 +8,4 @@
 ---
 ## Results 
 
-![EOR](EOR.PNG)
+![EOR](Case-5.gif)
