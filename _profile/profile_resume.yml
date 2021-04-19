@@ -276,6 +276,27 @@ publications:
         url: https://www.sciencedirect.com/science/article/pii/S0021999116307045
       render: true
     - value:
+        type: thesis
+        category: "php" # "php", "masters", "bachelors"
+        author: "Author name"
+        title: "Thesis title"
+        publisher: "UT Austin"
+        address: ""
+        year: 2020
+        thumbnail: levelset_deformation.png
+        url: https://www.sciencedirect.com/science/article/pii/S0021999116307045
+      render: true
+    - value:
+        type: "unpublished"
+        author: "Author name, Author 2, Author 3"
+        title: "Unpublished article title"
+        journal: "JCP" # This is optional for "unpublished" type, can be ignored.
+        note: "Under review or submitted" # This is mandatory.
+        year: 2021 # This is optional, it must be entered as a number.
+        thumbnail: "levelset_deformation.png"
+        url: https://www.sciencedirect.com/science/article/pii/S0021999116307045
+      render: true
+    - value:
         type: article
         author: 'Author I, Author II, and Author III'
         title: Sample title III of an article made-up to give demo for profileio

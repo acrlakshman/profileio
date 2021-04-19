@@ -1,4 +1,4 @@
-github.com/acrlakshman/profileio-resume v0.2.0 h1:jcKvrVDMKkTcNlhxNx565c0hs2v40wGS0q1DZuv5YT4=
-github.com/acrlakshman/profileio-resume v0.2.0/go.mod h1:rzlMVKhvaeX646Ls+0A9raPkTiGnKzHIbyfgMJ2LokE=
-github.com/buger/jsonparser v1.0.0 h1:etJTGF5ESxjI0Ic2UaLQs2LQQpa8G9ykQScukbh4L8A=
-github.com/buger/jsonparser v1.0.0/go.mod h1:tgcrVJ81GPSF0mz+0nu1Xaz0fazGPrmmJfJtxjbHhUQ=
+github.com/acrlakshman/profileio-resume v0.3.0 h1:RchaSLOe4MZme3EMscdq20jbznNOFMSlfcQufi/XrQg=
+github.com/acrlakshman/profileio-resume v0.3.0/go.mod h1:2PnQNiC0axJUvnX4ZGI77Xb0TiiMlJLNRTakeYocL98=
+github.com/buger/jsonparser v1.1.1 h1:2PnMjfWD7wBILjqQbt530v576A/cAbQvEW9gGIpYMUs=
+github.com/buger/jsonparser v1.1.1/go.mod h1:6RYKKt7H4d4+iWqouImQ9R2FZql3VbhNgx27UK13J/0=
