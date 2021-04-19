@@ -1,10 +1,10 @@
 # Fdb version 3
-["xdvipdfmx"] 1618794414 "resume.xdv" "resume.pdf" "resume" 1618794414
-  "resume.xdv" 1618794414 47508 3c2cbd369c619b8fb218ac9a1a9ec77f "xelatex"
+["xdvipdfmx"] 1618795404 "resume.xdv" "resume.pdf" "resume" 1618795405
+  "resume.xdv" 1618795404 47508 bbae311ac29beb5d7ca76b4eb8737aba "xelatex"
   (generated)
   "resume.pdf"
-["xelatex"] 1618794413 "./resume.tex" "resume.xdv" "resume" 1618794414
-  "./resume.tex" 1618794412 10693 0a476a34c4d299a17792b9b0d7c63bab ""
+["xelatex"] 1618795403 "./resume.tex" "resume.xdv" "resume" 1618795405
+  "./resume.tex" 1618795403 10693 0a476a34c4d299a17792b9b0d7c63bab ""
   "/opt/texlive/texdir/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/texlive/texdir/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/opt/texlive/texdir/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -63,9 +63,9 @@
   "/opt/texlive/texdir/texmf-dist/web2c/texmf.cnf" 1616443989 39972 3d6bb4d9d719e93193fa020b58adf5d4 ""
   "/opt/texlive/texdir/texmf-var/web2c/xetex/xelatex.fmt" 1617440561 5093790 cefe53b875b5ca7bbe31545828d7a9c3 ""
   "/opt/texlive/texdir/texmf.cnf" 1617440470 555 bd60ff59e4d560b42d96b004436f91d3 ""
-  "res.cls" 1618794412 25065 00878584ba637ae375b57ce6f6d58323 ""
-  "resume.aux" 1618794413 8 a94a2480d3289e625eea47cd1b285758 ""
-  "resume.tex" 1618794412 10693 0a476a34c4d299a17792b9b0d7c63bab ""
+  "res.cls" 1618795403 25065 00878584ba637ae375b57ce6f6d58323 ""
+  "resume.aux" 1618795403 8 a94a2480d3289e625eea47cd1b285758 ""
+  "resume.tex" 1618795403 10693 0a476a34c4d299a17792b9b0d7c63bab ""
   (generated)
   "resume.xdv"
   "resume.log"
