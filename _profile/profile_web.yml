@@ -37,7 +37,7 @@ basics:
     value: ''
     render: false
   url:
-    value: 'https://rohitmishranitrr.github.io'
+    value: 'https://openengg1.github.io'
     render: false
   summary:
     label: About me
