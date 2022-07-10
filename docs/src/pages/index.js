@@ -92,7 +92,7 @@ function Home() {
                 <div className={clsx('col col--12', styles.feature)}>
                   <div className="text--center">
                     <img
-                      alt="ProfileIO"
+                      alt="Rohit Mishra"
                       src={useBaseUrl('img/webLogo.png')}
                       width="256"
                       height="auto"
