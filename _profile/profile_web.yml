@@ -58,7 +58,7 @@ basics:
       render: true
     - value: # if username is provided but not url, then we generate the url.
         network: github
-        username: rohitmishranitrr
+        username: openengg1
       render: true
     - value:
         network: linkedin
@@ -91,20 +91,7 @@ work:
           - brief: "" #Bold
             detail: Developing real gas combustion solver based on NGA for simulating sCO2 oxy-combustion
       render: true
-    - value:
-      name: Texas A&M University
-      location: College Station, TX
-      brief: ""
-      position: Research Assistant
-      url: "tamu.edu"
-      startDate: "2019" # string
-      endDate: Present # string
-      active: true
-      highlights:
-        - detail: Developed multi-phase/multi-component dynamic mesh code in OpenFOAM for simulating internal nozzle (Funding - Cummins Inc.)
-        - brief: "" #Bold
-          detail: Developing real gas combustion solver based on NGA for simulating sCO2 oxy-combustion
-    render: true
+   
     - value:
         name: Argonne National Laboratory
         location: Chicago, IL
@@ -115,10 +102,26 @@ work:
         endDate: "05-2022" # string
         active: true
         highlights:
+          - detail:  Benchmarked HRIC and PLIC VoF simulations in CONVERGE (CFD tool) and created gold standard spray data. Implemented surface compression UDF for HRIC 
+          - brief: "" #Bold
+            detail: Implemented and tested three widely used surface film models. The surface film models were implemented with an in-house LES dynamic structure turbulence tuned for spray breakup and atomization. 
+      render: true
+      
+      - value:
+        name: University of Wisconsin
+        location: Madison, WI
+        brief: ""
+        position: Research Assistant  
+        url: "wisc.edu"
+        startDate: "2016" # string
+        endDate: "2018" # string
+        active: true
+        highlights:
           - detail: Evaluated surface-film models available in OpenFOAM and compared it by implementing new models in LES dynamic structure framework 
           - brief: "" #Bold
             detail: Implemented and tested three widely used surface film models. The surface film models were implemented with an in-house LES dynamic structure turbulence tuned for spray breakup and atomization. 
       render: true
+      
 education:
   label: Education
   rank: 1
@@ -200,7 +203,7 @@ projects:
       render: true
     - value:
         name: Unsupervised clustering Machine learning for flamelet tables
-        description: "Implemented unsupervised clustering (K-Means Clustering) as a gating network for MoE framework for learning flamelet tables"
+        description: "Implemented unsupervised clustering (Gausian Mixture Model) as a gating network for learning flamelet tables. Created a new recursive unsupervised clustering framework"
         team: "with Dr. Dorrin Jarrahbashi" # [Lakshman Anumolu](//lakshmananumolu.com)_" 
         note: ""
         thumbnail: MLflamelet.PNG #Later
