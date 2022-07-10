@@ -307,7 +307,7 @@ projects:
         description: "Mentored graduate student to run spray-film simulations (using OF surface film code developed earlier) to study cellulose deposition"
         team: "with Dr. Jarrahbashi, Dr. Asari, Dr. Shariatnia and (mentored graduate student) Prajesh Jangale" # [Lakshman Anumolu](//lakshmananumolu.com)_" 
         note: ""
-        thumbnail: cellulose.png #Later
+        thumbnail: cellulose.PNG #Later
         highlights:
           - brief: ""
             detail: Website and resume generator via YAML
