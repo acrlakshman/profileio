@@ -144,7 +144,7 @@ education:
 projects:
   label: "Projects"
   rank: 3
-  maxItemsToRender: 7 # If this is not provided, it defaults to 5 (src/config.ts)
+  maxItemsToRender: 10 # If this is not provided, it defaults to 5 (src/config.ts)
   list:
     - value:
         name: Degassing and cavitation in diesel injector nozzles
@@ -307,7 +307,7 @@ projects:
         description: "Mentored graduate student to run spray-film simulations (using OF surface film code developed earlier) to study cellulose deposition"
         team: "with Dr. Jarrahbashi, Dr. Asari, Dr. Shariatnia and (mentored graduate student) Prajesh Jangale" # [Lakshman Anumolu](//lakshmananumolu.com)_" 
         note: ""
-        thumbnail: cellulose.tif #Later
+        thumbnail: cellulose.png #Later
         highlights:
           - brief: ""
             detail: Website and resume generator via YAML
@@ -327,7 +327,33 @@ projects:
         webPage:
           slug: cellulose #name 
           detail: project/cellulose.md # if the content is empty, "url" will be linked in the homepage for the project
-      render: true  
+      render: true
+    - value:
+        name: Improving Fire-Smoke render in Blender 3D animation tool
+        description: "Improving Blender animation code to implement realistic fluids physics for smoke simulation; Here is one animation scene I created (forgive me for being a novice)"
+        team: "" # [Lakshman Anumolu](//lakshmananumolu.com)_" 
+        note: ""
+        thumbnail: blender1.jpg #Later
+        highlights:
+          - brief: ""
+            detail: Website and resume generator via YAML
+        keywords:
+          - resume
+          - website
+          - YAML
+          - markdown
+        startDate: '2020' # string
+        endDate: Present
+        # If webPage is not provided, then url will be linked in the homepage for this project
+        url:  ' ' #'https://rohitmishranitrr.github.io/pseudoCavitation'
+        roles:
+          - Architect
+          - Developer
+        type: application
+        webPage:
+          slug: degassing #name 
+          detail: project/blender1.md # if the content is empty, "url" will be linked in the homepage for the project
+      render: true
 awards:
   label: Awards & Achievements
   rank: 11
@@ -342,7 +368,7 @@ publications:
   # Format follows: http://web.mit.edu/rsi/www/pdfs/bibtex-format.pdf
   label: Publications
   rank: 4
-  maxItemsToRender: 2 # If this is not provided, it defaults to 5 (src/config.ts)
+  maxItemsToRender: 5 # If this is not provided, it defaults to 5 (src/config.ts)
   list:
     - value:
         type: article #Book, in conference, in proceedings, thesis
