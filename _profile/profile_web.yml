@@ -101,9 +101,9 @@ work:
         endDate: "05-2022" # string
         active: true
         highlights:
-          - detail:  Benchmarked HRIC and PLIC VoF simulations in CONVERGE (CFD tool) and created gold standard spray data. Implemented surface compression UDF for HRIC 
+          - detail:  Benchmarked HRIC and PLIC VoF simulations in CONVERGE (CFD tool) and created gold standard spray data.  
           - brief: "" #Bold
-            detail: Implemented and tested three widely used surface film models. The surface film models were implemented with an in-house LES dynamic structure turbulence tuned for spray breakup and atomization. 
+            detail: Implemented surface compression UDF for HRIC simulations. Suggested tan-hyperbolic improvement for compression term to avoid spurious oscillations.
       render: true      
     - value:
         name: University of Wisconsin
@@ -201,7 +201,7 @@ projects:
     - value:
         name: Unsupervised clustering Machine learning for flamelet tables
         description: "Implemented unsupervised clustering (Gaussian Mixture Model) as a gating network for learning flamelet tables. Created a new recursive unsupervised clustering framework"
-        team: "with Dr. Dorrin Jarrahbashi" # [Lakshman Anumolu](//lakshmananumolu.com)_" 
+        team: "with Dr. Dorrin Jarrahbashi (mentored undergraduate student) Sarvesh Mayilvahanan" # [Lakshman Anumolu](//lakshmananumolu.com)_" 
         note: ""
         thumbnail: MLflamelet.PNG #Later
         highlights:
@@ -276,6 +276,32 @@ projects:
           slug: EOR #name 
           detail: project/EOR.md # if the content is empty, "url" will be linked in the homepage for the project
       render: true
+    - value:
+        name: SL-GPS scheme for reducing chemical kinetics using artificial neural networks
+        description: "Developed a new adaptive chemistry reduction scheme based on existing Global Pathway Selection scheme. The new scheme makes adaptive GPS runs to create a dataset that is used to train an Artificial Neural Network."
+        team: "with Dr. Jarrahbashi and (mentored undergraduate student) Aaron Nelson" # [Lakshman Anumolu](//lakshmananumolu.com)_" 
+        note: ""
+        thumbnail: EOR.PNG #Later
+        highlights:
+          - brief: ""
+            detail: Website and resume generator via YAML
+        keywords:
+          - resume
+          - website
+          - YAML
+          - markdown
+        startDate: '2020' # string
+        endDate: Present
+        # If webPage is not provided, then url will be linked in the homepage for this project
+        url:  ' ' #'https://rohitmishranitrr.github.io/pseudoCavitation'
+        roles:
+          - Architect
+          - Developer
+        type: application
+        webPage:
+          slug: EOR #name 
+          detail: project/EOR.md # if the content is empty, "url" will be linked in the homepage for the project
+      render: true
 awards:
   label: Awards & Achievements
   rank: 11
@@ -284,7 +310,7 @@ awards:
         title: Pioneer National Resources Fellowship
         date: 2021-2022
         awarder: Pioneer National Resources
-        summary: In recognition of academic-research achievement and leadership skills
+        summary: In recognition of academic and research achievement and leadership skills
       render: true
 publications:
   # Format follows: http://web.mit.edu/rsi/www/pdfs/bibtex-format.pdf
@@ -292,6 +318,38 @@ publications:
   rank: 4
   maxItemsToRender: 2 # If this is not provided, it defaults to 5 (src/config.ts)
   list:
+    - value:
+        type: article #Book, in conference, in proceedings, thesis
+        author: "**Rohit Mishra**, Aaron Nelson, Dorrin Jarrahbashi"
+        title: "Adaptive global pathway selection using artificial neural networks: A-priori study"
+        journal: Combustion and Flame, Elsevier
+        volume: 0
+        year: 2022
+        number: 0
+        pages: ''
+        thumbnail: CNF1.jpg
+        # If webPage is not provided, then url will be linked in the homepage for this project
+        url: 'https://www.sciencedirect.com/science/article/pii/S0010218022002942?dgcid=coauthor' # add later
+        # webPage:
+        #   slug: levelset-phasechange
+        #   detail: publications/levelset-phasechange.md
+      render: true
+    - value:
+        type: article #Book, in conference, in proceedings, thesis
+        author: "Shadi Shariatnia, Prajesh Jangale, **Rohit Mishra**, Amir Asadi, Dorrin Jarrahbashi"
+        title: "Supercritical CO2-assisted atomization for deposition of cellulose nanocrystals: an experimental and computational study"
+        journal: Cellulose, Springer
+        volume: 0
+        year: 2021
+        number: 0
+        pages: ''
+        thumbnail: cellulose.jpg
+        # If webPage is not provided, then url will be linked in the homepage for this project
+        url: 'https://journals.sagepub.com/doi/10.1177/1468087421993348' # add later
+        # webPage:
+        #   slug: levelset-phasechange
+        #   detail: publications/levelset-phasechange.md
+      render: true
     - value:
         type: article #Book, in conference, in proceedings, thesis
         author: "**Rohit Mishra**, Daniel Jiwani, Dorrin Jarrahbashi"
