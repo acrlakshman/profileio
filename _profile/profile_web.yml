@@ -105,7 +105,7 @@ work:
           - brief: "" #Bold
             detail: Implemented and tested three widely used surface film models. The surface film models were implemented with an in-house LES dynamic structure turbulence tuned for spray breakup and atomization. 
       render: true      
-      - value:
+    - value:
         name: University of Wisconsin
         location: Madison, WI
         brief: ""
