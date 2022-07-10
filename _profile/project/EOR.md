@@ -1,4 +1,4 @@
-## [Degassing](https://rohitmishranitrr.github.io/EOR)
+## [Polymer Flooding](https://rohitmishranitrr.github.io/EOR)
 
 * Highlights:
   * Empirical shear thinning power law model developed for polymers in porous media simulation
