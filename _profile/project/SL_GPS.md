@@ -1,10 +1,12 @@
-## [Degassing](https://rohitmishranitrr.github.io/EOR)
+## [SL-GPS for chemical mechanism reduction](https://rohitmishranitrr.github.io/SL_GPS)
 
 * Highlights:
-  * Empirical shear thinning power law model developed for polymers in porous media simulation
-  * Finds viscosity at any concentration as a function of space and time
-  * 2nd invariant of Deformation tensor used to find shear rate and relate to viscosity
-  * Two polymer widely used in Enhanced Oil Recovery compared: Schizophyllan and Xanthane
+  * Developed an adaptive Global Pathway Selection scheme for improving the speed and accuracy of classic GPS
+  * Trained an Artifical Neural Network (ANN) to retain the accuracy of the adaptive GPS but improve the speed
+  * Developed ANN architecture able to capture key combustion metrics like ignition delay and Heat Release Rate (HRR)
+  * Algorithm and ANN architecture shown below:
+
+
 ---
 ## Results 
 
