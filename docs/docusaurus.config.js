@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://acrlakshman.github.io',
   baseUrl: '/profileio/',
   onBrokenLinks: 'throw',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/webLogo.ico',
   organizationName: 'acrlakshman.github.io',
   projectName: 'profileio',
   themeConfig: {
@@ -12,10 +12,10 @@ module.exports = {
       defaultMode: 'dark',
     },
     navbar: {
-      title: 'ProfileIO',
+      title: 'Rohit Mishra',
       logo: {
         alt: 'Logo',
-        src: 'img/logo.svg',
+        src: 'img/webLogo.ico',
       },
       items: [
         {
