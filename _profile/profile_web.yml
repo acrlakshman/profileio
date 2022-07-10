@@ -281,7 +281,7 @@ projects:
         description: "Developed a new adaptive chemistry reduction scheme based on existing Global Pathway Selection scheme. The new scheme makes adaptive GPS runs to create a dataset that is used to train an Artificial Neural Network."
         team: "with Dr. Jarrahbashi and (mentored undergraduate student) Aaron Nelson" # [Lakshman Anumolu](//lakshmananumolu.com)_" 
         note: ""
-        thumbnail: EOR.PNG #Later
+        thumbnail: CNF1.png #Later
         highlights:
           - brief: ""
             detail: Website and resume generator via YAML
@@ -299,9 +299,35 @@ projects:
           - Developer
         type: application
         webPage:
-          slug: EOR #name 
-          detail: project/EOR.md # if the content is empty, "url" will be linked in the homepage for the project
+          slug: SL-GPS #name 
+          detail: project/SL_GPS.md # if the content is empty, "url" will be linked in the homepage for the project
       render: true
+    - value:
+        name: Numerically predicting surface film formation for supercritical CO2-assisted atomization for deposition of cellulose nanocrystal
+        description: "Mentored graduate student to run spray-film simulations (using OF surface film code developed earlier) to study cellulose deposition"
+        team: "with Dr. Jarrahbashi, Dr. Asari, Dr. Shariatnia and (mentored graduate student) Prajesh Jangale" # [Lakshman Anumolu](//lakshmananumolu.com)_" 
+        note: ""
+        thumbnail: cellulose.tif #Later
+        highlights:
+          - brief: ""
+            detail: Website and resume generator via YAML
+        keywords:
+          - resume
+          - website
+          - YAML
+          - markdown
+        startDate: '2020' # string
+        endDate: Present
+        # If webPage is not provided, then url will be linked in the homepage for this project
+        url:  ' ' #'https://rohitmishranitrr.github.io/pseudoCavitation'
+        roles:
+          - Architect
+          - Developer
+        type: application
+        webPage:
+          slug: cellulose #name 
+          detail: project/cellulose.md # if the content is empty, "url" will be linked in the homepage for the project
+      render: true  
 awards:
   label: Awards & Achievements
   rank: 11
@@ -327,7 +353,7 @@ publications:
         year: 2022
         number: 0
         pages: ''
-        thumbnail: CNF1.jpg
+        thumbnail: CNF1.png
         # If webPage is not provided, then url will be linked in the homepage for this project
         url: 'https://www.sciencedirect.com/science/article/pii/S0010218022002942?dgcid=coauthor' # add later
         # webPage:
@@ -343,7 +369,7 @@ publications:
         year: 2021
         number: 0
         pages: ''
-        thumbnail: cellulose.jpg
+        thumbnail: cellulose.tif
         # If webPage is not provided, then url will be linked in the homepage for this project
         url: 'https://journals.sagepub.com/doi/10.1177/1468087421993348' # add later
         # webPage:
@@ -382,6 +408,37 @@ publications:
         #   slug: levelset-phasechange
         #   detail: publications/levelset-phasechange.md
       render: true
+projects:
+  label: "Fun stuff"
+  rank: 3
+  maxItemsToRender: 7 # If this is not provided, it defaults to 5 (src/config.ts)
+  list:
+    - value:
+        name: Improving Fire-Smoke render in Blender 3D animation tool
+        description: "Improving Blender animation code to implement realistic fluids physics for smoke simulation; Here is one animation scene I created (forgive me for being a novice)"
+        team: "" # [Lakshman Anumolu](//lakshmananumolu.com)_" 
+        note: ""
+        thumbnail: blender1.jpg #Later
+        highlights:
+          - brief: ""
+            detail: Website and resume generator via YAML
+        keywords:
+          - resume
+          - website
+          - YAML
+          - markdown
+        startDate: '2020' # string
+        endDate: Present
+        # If webPage is not provided, then url will be linked in the homepage for this project
+        url:  ' ' #'https://rohitmishranitrr.github.io/pseudoCavitation'
+        roles:
+          - Architect
+          - Developer
+        type: application
+        webPage:
+          slug: degassing #name 
+          detail: project/blender1.md # if the content is empty, "url" will be linked in the homepage for the project
+      render: true      
 gallery:
   label: Gallery
   rank: 5
