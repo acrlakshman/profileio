@@ -200,7 +200,7 @@ projects:
       render: true
     - value:
         name: Unsupervised clustering Machine learning for flamelet tables
-        description: "Implemented unsupervised clustering (Gausian Mixture Model) as a gating network for learning flamelet tables. Created a new recursive unsupervised clustering framework"
+        description: "Implemented unsupervised clustering (Gaussian Mixture Model) as a gating network for learning flamelet tables. Created a new recursive unsupervised clustering framework"
         team: "with Dr. Dorrin Jarrahbashi" # [Lakshman Anumolu](//lakshmananumolu.com)_" 
         note: ""
         thumbnail: MLflamelet.PNG #Later
@@ -284,7 +284,7 @@ awards:
         title: Pioneer National Resources Fellowship
         date: 2021-2022
         awarder: Pioneer National Resources
-        summary: In recognition of academic/research achievement and leadership skills
+        summary: In recognition of academic-research achievement and leadership skills
       render: true
 publications:
   # Format follows: http://web.mit.edu/rsi/www/pdfs/bibtex-format.pdf
