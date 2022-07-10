@@ -1,4 +1,4 @@
-## [Polymer Flooding](https://rohitmishranitrr.github.io/EOR)
+## [Enhanced Oil Recovery using Polymer](https://rohitmishranitrr.github.io/EOR)
 
 * Highlights:
   * Empirical shear thinning power law model developed for polymers in porous media simulation
