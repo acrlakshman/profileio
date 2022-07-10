@@ -91,7 +91,6 @@ work:
           - brief: "" #Bold
             detail: Developing real gas combustion solver based on NGA for simulating sCO2 oxy-combustion
       render: true
-   
     - value:
         name: Argonne National Laboratory
         location: Chicago, IL
@@ -105,8 +104,7 @@ work:
           - detail:  Benchmarked HRIC and PLIC VoF simulations in CONVERGE (CFD tool) and created gold standard spray data. Implemented surface compression UDF for HRIC 
           - brief: "" #Bold
             detail: Implemented and tested three widely used surface film models. The surface film models were implemented with an in-house LES dynamic structure turbulence tuned for spray breakup and atomization. 
-      render: true
-      
+      render: true      
       - value:
         name: University of Wisconsin
         location: Madison, WI
@@ -121,7 +119,6 @@ work:
           - brief: "" #Bold
             detail: Implemented and tested three widely used surface film models. The surface film models were implemented with an in-house LES dynamic structure turbulence tuned for spray breakup and atomization. 
       render: true
-      
 education:
   label: Education
   rank: 1
