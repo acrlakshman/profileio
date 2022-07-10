@@ -1,9 +1,9 @@
 {
-  "short_name": "ProfileIO",
+  "short_name": "Rohit Mishra",
   "name": "Delightfully simple webstite and resume generator via YAML",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "webLogo.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
@@ -13,7 +13,7 @@
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "webLogo.png",
       "type": "image/png",
       "sizes": "512x512"
     }
