@@ -93,7 +93,7 @@ function Home() {
                   <div className="text--center">
                     <img
                       alt="ProfileIO"
-                      src={useBaseUrl('img/logo512.png')}
+                      src={useBaseUrl('img/webLogo.png')}
                       width="256"
                       height="auto"
                     ></img>
