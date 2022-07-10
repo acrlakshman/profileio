@@ -410,7 +410,7 @@ publications:
       render: true
 projects:
   label: "Fun stuff"
-  rank: 3
+  rank: 4
   maxItemsToRender: 7 # If this is not provided, it defaults to 5 (src/config.ts)
   list:
     - value:
