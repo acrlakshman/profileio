@@ -92,13 +92,27 @@ work:
             detail: Developing real gas combustion solver based on NGA for simulating sCO2 oxy-combustion
       render: true
     - value:
-        name: University of Wisconsin
-        location: Madison, WI
+      name: Texas A&M University
+      location: College Station, TX
+      brief: ""
+      position: Research Assistant
+      url: "tamu.edu"
+      startDate: "2019" # string
+      endDate: Present # string
+      active: true
+      highlights:
+        - detail: Developed multi-phase/multi-component dynamic mesh code in OpenFOAM for simulating internal nozzle (Funding - Cummins Inc.)
+        - brief: "" #Bold
+          detail: Developing real gas combustion solver based on NGA for simulating sCO2 oxy-combustion
+    render: true
+    - value:
+        name: Argonne National Laboratory
+        location: Chicago, IL
         brief: ""
-        position: Research Assistant  
-        url: "wisc.edu"
-        startDate: "2016" # string
-        endDate: "2018" # string
+        position: Research Aide  
+        url: "anl.gov"
+        startDate: "01-2022" # string
+        endDate: "05-2022" # string
         active: true
         highlights:
           - detail: Evaluated surface-film models available in OpenFOAM and compared it by implementing new models in LES dynamic structure framework 
@@ -267,11 +281,11 @@ awards:
   rank: 11
   list:
     - value:
-        title: Marshal award
-        date: May 2014
-        awarder: ILASS
-        summary: Best paper for numerical work
-      render: false
+        title: Pioneer National Resources Fellowship
+        date: 2021-2022
+        awarder: Pioneer National Resources
+        summary: In recognition of academic/research achievement and leadership skills
+      render: true
 publications:
   # Format follows: http://web.mit.edu/rsi/www/pdfs/bibtex-format.pdf
   label: Publications
