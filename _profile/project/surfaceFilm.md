@@ -1,4 +1,4 @@
-## [Surface-film modeling](https://rohitmishranitrr.github.io/surfaceFilm)
+## [Surface-film modeling](https://openengg1.github.io/surfaceFilm)
 
 * [Documentation](https://github.com/rohitmishranitrr/OpenFOAM)
 * Highlights:
