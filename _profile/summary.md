@@ -1,4 +1,4 @@
-I am currently working at the [Computational Thermo-Fluids Laboratory (CTF lab)], [Texas A&M University] as a research assistant. I am pursuing my PhD under the supervision of [Dr. Dorrin Jarrahbashi].
+Hi! I am Rohit, a PhD candidate currently working at the [Computational Thermo-Fluids Laboratory (CTF lab)], [Texas A&M University] as a Research Assistant. I am working under the supervision of [Dr. Dorrin Jarrahbashi].
 
 **My interests:**
 * Physics based modeling and simulation
