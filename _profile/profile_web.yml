@@ -330,6 +330,32 @@ projects:
           detail: project/cellulose.md # if the content is empty, "url" will be linked in the homepage for the project
       render: true
     - value:
+        name: HRIC and PLIC VoF simulations for sub-critical spray benchmarking
+        description: "Worked on the CRADA project to generate gold standard spray data to understand near injector spray dynamics"
+        team: "with Dr. Gina Magnotti" # [Lakshman Anumolu](//lakshmananumolu.com)_" 
+        note: ""
+        thumbnail: hric.png #Later
+        highlights:
+          - brief: ""
+            detail: Website and resume generator via YAML
+        keywords:
+          - resume
+          - website
+          - YAML
+          - markdown
+        startDate: '2020' # string
+        endDate: Present
+        # If webPage is not provided, then url will be linked in the homepage for this project
+        url:  ' ' #'https://rohitmishranitrr.github.io/pseudoCavitation'
+        roles:
+          - Architect
+          - Developer
+        type: application
+        webPage:
+          slug: cellulose #name 
+          detail: project/vof.md # if the content is empty, "url" will be linked in the homepage for the project
+      render: true
+    - value:
         name: Improving Fire-Smoke render in Blender 3D animation tool
         description: "Improving Blender animation code to implement realistic fluids physics for smoke simulation"
         team: "" # [Lakshman Anumolu](//lakshmananumolu.com)_" 
