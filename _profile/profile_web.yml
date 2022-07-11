@@ -398,7 +398,7 @@ publications:
         pages: ''
         thumbnail: cellulose.PNG
         # If webPage is not provided, then url will be linked in the homepage for this project
-        url: 'https://journals.sagepub.com/doi/10.1177/1468087421993348' # add later
+        url: 'https://link.springer.com/article/10.1007/s10570-021-04368-7' # add later
         # webPage:
         #   slug: levelset-phasechange
         #   detail: publications/levelset-phasechange.md
