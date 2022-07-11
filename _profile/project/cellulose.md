@@ -1,4 +1,4 @@
-## [Surface film and splash drop prediction for understanding nanoparticle deposition](https://rohitmishranitrr.github.io/cellulose)
+## [Surface film and splash drop prediction for understanding nanoparticle deposition](https://openengg1.github.io/cellulose)
 
 * Highlights:
   * Ran simulations for estimating the surface film and splash metrics for understanding the cellulose deposition
