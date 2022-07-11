@@ -1,4 +1,4 @@
-## [ML for flamelet tables](https://rohitmishranitrr.github.io/MLcombustion)
+## [ML for flamelet tables](https://openengg1.github.io/MLcombustion)
 
 * Highlights:
   * Working with Prof. Dorrin Jarrahbashi and Sarvesh Mayilvahanan (Undergraduate student at Texas A&M University)
