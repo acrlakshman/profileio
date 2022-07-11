@@ -333,7 +333,7 @@ projects:
         description: "Improving Blender animation code to implement realistic fluids physics for smoke simulation; Here is one animation scene I created (forgive me for being a novice)"
         team: "" # [Lakshman Anumolu](//lakshmananumolu.com)_" 
         note: ""
-        thumbnail: blender1.jpg #Later
+        thumbnail: blender1.jpeg #Later
         highlights:
           - brief: ""
             detail: Website and resume generator via YAML
@@ -395,7 +395,7 @@ publications:
         year: 2021
         number: 0
         pages: ''
-        thumbnail: cellulose.tif
+        thumbnail: cellulose.PNG
         # If webPage is not provided, then url will be linked in the homepage for this project
         url: 'https://journals.sagepub.com/doi/10.1177/1468087421993348' # add later
         # webPage:
