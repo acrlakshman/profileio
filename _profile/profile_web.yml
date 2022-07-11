@@ -85,6 +85,7 @@ work:
         url: "tamu.edu"
         startDate: "2019" # string
         endDate: Present # string
+        thumbnail: surface_film2.PNG
         active: true
         highlights:
           - detail: Developed multi-phase/multi-component dynamic mesh code in OpenFOAM for simulating internal nozzle (Funding - Cummins Inc.)
