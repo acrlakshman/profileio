@@ -352,7 +352,7 @@ projects:
           - Developer
         type: application
         webPage:
-          slug: cellulose #name 
+          slug: vof #name 
           detail: project/vof.md # if the content is empty, "url" will be linked in the homepage for the project
       render: true
     - value:
@@ -378,7 +378,7 @@ projects:
           - Developer
         type: application
         webPage:
-          slug: degassing #name 
+          slug: blender #name 
           detail: project/blender1.md # if the content is empty, "url" will be linked in the homepage for the project
       render: true
 awards:
