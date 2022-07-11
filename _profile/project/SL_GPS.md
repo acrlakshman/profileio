@@ -1,4 +1,4 @@
-## [SL-GPS for chemical mechanism reduction](https://rohitmishranitrr.github.io/SL_GPS)
+## [SL-GPS for chemical mechanism reduction](https://openengg1.github.io/SL_GPS)
 
 * Highlights:
   * Developed an adaptive Global Pathway Selection scheme for improving the speed and accuracy of classic GPS
