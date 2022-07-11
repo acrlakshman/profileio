@@ -331,7 +331,7 @@ projects:
       render: true
     - value:
         name: Improving Fire-Smoke render in Blender 3D animation tool
-        description: "Improving Blender animation code to implement realistic fluids physics for smoke simulation; Here is one animation scene I created (forgive me for being a novice)"
+        description: "Improving Blender animation code to implement realistic fluids physics for smoke simulation"
         team: "" # [Lakshman Anumolu](//lakshmananumolu.com)_" 
         note: ""
         thumbnail: blender1.jpeg #Later
