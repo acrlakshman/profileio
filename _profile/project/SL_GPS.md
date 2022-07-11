@@ -3,11 +3,11 @@
 * Highlights:
   * Developed an adaptive Global Pathway Selection scheme for improving the speed and accuracy of classic GPS
   * Trained an Artifical Neural Network (ANN) to retain the accuracy of the adaptive GPS but improve the speed
-  * Developed ANN architecture able to capture key combustion metrics like ignition delay and Heat Release Rate (HRR)
-  * Algorithm and ANN architecture shown below:
+  * Developed ANN architecture able to capture key combustion metrics like Ignition Delay (ID) and Heat Release Rate (HRR)
+  * Algorithm and ANN architecture shown below; More details in published paper.
 
 
 ---
 ## Results 
 
-![EOR](Case-5.gif)
+![SL_GPS](CNF1.png)
