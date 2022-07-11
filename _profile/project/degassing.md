@@ -1,4 +1,4 @@
-## [Degassing](https://rohitmishranitrr.github.io/degassing)
+## [Degassing](https://openengg1.github.io/degassing)
 
 * [Paper](https://journals.sagepub.com/doi/abs/10.1177/1468087421993348)
 * Highlights:
@@ -15,7 +15,7 @@
 
 ---
 
-## [Moving needle](https://rohitmishranitrr.github.io/degassing)
+## [Moving needle](https://openengg1.github.io/degassing)
 
 * Highlights:
   * Dynamic meshing capability in OFv6 has been explored for Cummins injector nozzle
@@ -29,7 +29,7 @@
 
 ---
 
-## [Spray modeling](https://rohitmishranitrr.github.io/degassing)
+## [Spray modeling](https://openengg1.github.io/degassing)
 
 * Highlights:
   * Dynamic meshing capability in OFv6 has been explored for diesel spray injection
