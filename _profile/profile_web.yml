@@ -28,7 +28,7 @@ basics:
     value: PhD Candidate
     render: true
   image:
-    value: profilePic.PNG # Upload later
+    value: profilePic.jpeg # Upload later
     render: true
   email:
     value: rmishra@tamu.edu
