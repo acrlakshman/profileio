@@ -306,7 +306,7 @@ projects:
     - value:
         name: Numerically predicting surface film formation for supercritical CO2-assisted atomization for deposition of cellulose nanocrystal
         description: "Mentored graduate student to run spray-film simulations (using OF surface film code developed earlier) to study cellulose deposition"
-        team: "with Dr. Jarrahbashi, Dr. Asari, Dr. Shariatnia and (mentored graduate student) Prajesh Jangale" # [Lakshman Anumolu](//lakshmananumolu.com)_" 
+        team: "with Dr. Jarrahbashi, Dr. Asadi, Dr. Shariatnia and (mentored graduate student) Prajesh Jangale" # [Lakshman Anumolu](//lakshmananumolu.com)_" 
         note: ""
         thumbnail: cellulose.PNG #Later
         highlights:
