@@ -11,3 +11,5 @@
 ## Results 
 
 ![SL_GPS](CNF1.png)
+![SL_GPS_results](ethanol_anim.gif)
+
