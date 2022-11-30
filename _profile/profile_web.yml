@@ -278,32 +278,6 @@ projects:
           detail: project/EOR.md # if the content is empty, "url" will be linked in the homepage for the project
       render: true
     - value:
-        name: Reduced ethanol combustion mechanisms
-        description: "Developed and validated reduced ethanol combustion mechanisms leading to significant computational speedup for large temperature and pressure range"
-        team: "with Dr. Shbrabanti Roy, Dr. Dorrin Jarrahbashi and Dr. Omid Askari" # [Lakshman Anumolu](//lakshmananumolu.com)_" 
-        note: ""
-        thumbnail: ethanolThumb.PNG #Later
-        highlights:
-          - brief: ""
-            detail: Website and resume generator via YAML
-        keywords:
-          - resume
-          - website
-          - YAML
-          - markdown
-        startDate: '2020' # string
-        endDate: Present
-        # If webPage is not provided, then url will be linked in the homepage for this project
-        url:  ' ' #'https://rohitmishranitrr.github.io/pseudoCavitation'
-        roles:
-          - Architect
-          - Developer
-        type: application
-        webPage:
-          slug: ethanol #name 
-          detail: project/ethanol.md # if the content is empty, "url" will be linked in the homepage for the project
-      render: true 
-    - value:
         name: SL-GPS scheme for reducing chemical kinetics using artificial neural networks
         description: "Developed a new adaptive chemistry reduction scheme based on existing Global Pathway Selection scheme. The new scheme makes adaptive GPS runs to create a dataset that is used to train an Artificial Neural Network."
         team: "with Dr. Jarrahbashi and (mentored undergraduate student) Aaron Nelson" # [Lakshman Anumolu](//lakshmananumolu.com)_" 
