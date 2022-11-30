@@ -399,22 +399,6 @@ publications:
   list:
     - value:
         type: article #Book, in conference, in proceedings, thesis
-        author: "Shrabanti Roy, **Rohit Mishra**, Dorrin Jarrahbashi, Omid Askari"
-        title: "Reduced ethanol skeleton mechanism for multi-dimensional engine simulation"
-        journal: Journal of the Energy Institute, Elsevier
-        volume: 0
-        year: 2022
-        number: 0
-        pages: ''
-        thumbnail: ethanolThumb.png
-        # If webPage is not provided, then url will be linked in the homepage for this project
-        url: 'https://www.sciencedirect.com/science/article/abs/pii/S1743967122001866' # add later
-        # webPage:
-        #   slug: levelset-phasechange
-        #   detail: publications/levelset-phasechange.md
-      render: true
-    - value:
-        type: article #Book, in conference, in proceedings, thesis
         author: "**Rohit Mishra**, Aaron Nelson, Dorrin Jarrahbashi"
         title: "Adaptive global pathway selection using artificial neural networks: A-priori study"
         journal: Combustion and Flame, Elsevier
