@@ -415,6 +415,22 @@ publications:
       render: true
     - value:
         type: article #Book, in conference, in proceedings, thesis
+        author: "**Rohit Mishra**, Aaron Nelson, Dorrin Jarrahbashi"
+        title: "Adaptive global pathway selection using artificial neural networks: A-priori study"
+        journal: Combustion and Flame, Elsevier
+        volume: 0
+        year: 2022
+        number: 0
+        pages: ''
+        thumbnail: CNF1.png
+        # If webPage is not provided, then url will be linked in the homepage for this project
+        url: 'https://www.sciencedirect.com/science/article/pii/S0010218022002942?dgcid=coauthor' # add later
+        # webPage:
+        #   slug: levelset-phasechange
+        #   detail: publications/levelset-phasechange.md
+      render: true
+    - value:
+        type: article #Book, in conference, in proceedings, thesis
         author: "Shadi Shariatnia, Prajesh Jangale, **Rohit Mishra**, Amir Asadi, Dorrin Jarrahbashi"
         title: "Supercritical CO2-assisted atomization for deposition of cellulose nanocrystals: an experimental and computational study"
         journal: Cellulose, Springer
