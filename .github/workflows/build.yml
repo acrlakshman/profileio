@@ -13,7 +13,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node-version: [18]
+        node-version: [16]
         go: ['1.18']
 
     runs-on: ${{ matrix.os }}
@@ -69,7 +69,7 @@ jobs:
     strategy:
       matrix:
         os: [macos-latest]
-        node-version: [18]
+        node-version: [16]
         go: ['1.18']
 
     runs-on: ${{ matrix.os }}
@@ -86,8 +86,9 @@ jobs:
     # No need to build here, all that is needed is profile_resume.json.
     - name: npm install and build
       run: |
-        npm install
-        npm run build
+        npm install --global yarn
+        yarn install
+        yarn run build
 
     - uses: actions/setup-go@v3
       with:
@@ -218,8 +219,8 @@ jobs:
 
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-2016, macos-latest]
-        node-version: [16, 18]
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        node-version: [16]
         go: ['1.18']
 
     runs-on: ${{ matrix.os }}
@@ -235,8 +236,9 @@ jobs:
 
     - name: npm install and build
       run: |
-        npm install
-        npm run build
+        npm install --global yarn
+        yarn install
+        yarn run build
 
     - uses: actions/setup-go@v3
       with:
