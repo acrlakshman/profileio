@@ -10,15 +10,15 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node-version: [14.x]
+        node-version: [16]
 
     runs-on: ${{ matrix.os }}
 
     steps:
-    - uses: actions/checkout@v2.3.1
+    - uses: actions/checkout@v3
 
     - name: Use node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v2.1.2
+      uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
         check-latest: true
@@ -26,11 +26,12 @@ jobs:
     - name: build doc
       run: |
         cd docs
-        npm install
-        npm run build
+        npm install --global yarn
+        yarn install
+        yarn run build
 
     - name: Push to doc branch
-      uses: JamesIves/github-pages-deploy-action@3.7.1
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: doc
